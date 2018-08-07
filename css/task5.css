@@ -1,0 +1,150 @@
+body {
+    font-size: 62.5%;
+}
+
+header {
+    color: white;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: #5fc0cd url("../img/back.png") no-repeat 40px center;
+}
+
+.heading {
+    background: url("../img/doctor.png") no-repeat;
+    background-size: cover;
+    height: 220px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    margin-top: 72px;
+    /*text-align: center;*/
+    /*line-height: 50px;*/
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+}
+
+.heading img {
+    display: table-cell;
+    vertical-align: middle;
+    float: left;
+    padding: 20px 25px;
+    height: auto;
+    max-width: 32%;
+}
+.heading-text {
+    position: absolute;
+
+
+
+    margin-left: 43%;
+}
+
+.heading div:first-child {
+    font-size: 20px;
+    color: white;
+}
+
+.age {
+    padding-left: 30px;
+}
+
+.secondtext {
+    background: url("../img/Shape-4.png") no-repeat left 50%;
+    background-size: 10px 14px;
+    margin-top: 20px;
+    padding-left: 20px;
+    font-size: 10px !important;
+    color: white;
+}
+
+.content {
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    left: 0;
+    top: 300px;
+}
+.skill{
+    height:80px;
+    line-height: 80px;
+    padding-left: 32px;
+    font-size: 20px;
+    background: url("../img/blue.png") no-repeat 23px center;
+    border-bottom: 1px solid lightgrey;
+}
+.condition {
+    width: 100%;
+    list-style-type: none;
+}
+ul li {
+    border-bottom: solid thin lightgrey;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+.offer span{
+    display: inline-block;
+    background: url("../img/star.png") no-repeat left center;
+    background-size: 20px 20px;
+    height: 50%;
+    width:40px;
+    padding: 20px 0 0 25px;
+}
+.offer img{
+    margin-left: -8px;
+}
+
+.condition img{
+    margin-right: 10px;
+}
+
+li img {
+    padding-left: 15px;
+}
+
+.red{
+    color: red;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    top: 400px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    margin-top: 400px;
+}
+
+.message {
+    background: white;
+    color: #5fc0cd;
+    border: solid thin;
+    border-radius: 15px;
+    width: 300px;
+    height: 50px;
+    margin-left: 40px;
+    font-size: 36px;
+}
+
+.phone {
+    background-color: #5fc0cd;
+    border: solid thin;
+
+    border-radius: 15px;
+    width: 300px;
+    height: 50px;
+    font-size: 36px;
+    color: white;
+}
