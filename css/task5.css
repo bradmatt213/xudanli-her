@@ -83,8 +83,10 @@ header {
     border-bottom: 1px solid lightgrey;
 }
 .condition {
-    width: 100%;
+    width: 95%;
     list-style-type: none;
+    padding-left: 5%;
+    margin-bottom: 70px;
 }
 ul li {
     border-bottom: solid thin lightgrey;
@@ -111,7 +113,9 @@ ul li {
 .one{
     width: 80px;
 }
-
+.two{
+    width: 60%;
+}
 .condition img{
     margin-right: 10px;
 }
