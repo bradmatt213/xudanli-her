@@ -19,18 +19,15 @@ header {
 .heading {
     background: url("../img/doctor.png") no-repeat;
     background-size: cover;
-    height: 220px;
+    height: 320px;
     width: 100%;
     position: absolute;
     left: 0;
-    margin-top: 72px;
-    /*text-align: center;*/
-    /*line-height: 50px;*/
-}
-
-.heading {
     display: flex;
     align-items: center;
+    margin-top: 72px;
+    text-align: center;
+    line-height: 50px;
 }
 
 .heading img {
@@ -41,10 +38,9 @@ header {
     height: auto;
     max-width: 32%;
 }
+
 .heading-text {
     position: absolute;
-
-
 
     margin-left: 43%;
 }
@@ -72,22 +68,25 @@ header {
     height: 200px;
     position: absolute;
     left: 0;
-    top: 300px;
+    top: 400px;
 }
-.skill{
-    height:80px;
+
+.skill {
+    height: 80px;
     line-height: 80px;
     padding-left: 32px;
     font-size: 20px;
-    background: url("../img/blue.png") no-repeat 23px center;
+    background: url("../img/blue.png") no-repeat 15px center;
     border-bottom: 1px solid lightgrey;
 }
+
 .condition {
     width: 95%;
     list-style-type: none;
     padding-left: 5%;
     margin-bottom: 70px;
 }
+
 ul li {
     border-bottom: solid thin lightgrey;
     /*height: 60px;*/
@@ -95,46 +94,75 @@ ul li {
     align-items: center;
     font-size: 20px;
 }
-.offer span{
+
+.offer span {
     display: inline-block;
     background: url("../img/star.png") no-repeat left center;
     background-size: 20px 20px;
     height: 50%;
-    width:60px;
+    width: 60px;
     padding: 20px 0 10px 30px;
 }
 
-.year{
+.year {
     color: #999999;
+    width: 20%;
 }
-.time span{
+
+.time span {
     padding: 20px 0 10px 7px;
 }
-.one{
-    width: 80px;
+
+.one {
+    width: 20%;
 }
-.two{
-    width: 60%;
+
+.two {
+    width: 80%;
 }
-.condition img{
+
+@media screen and (max-width: 550px) {
+    .year {
+        color: #999999;
+        width: 30%;
+        white-space: nowrap;
+    }
+
+    .time span {
+        padding: 20px 0 10px 7px;
+    }
+
+    .one {
+        width: 30%;
+        white-space: nowrap;
+    }
+
+    .two {
+        width: 70%;
+    }
+}
+
+.condition img {
     margin-right: 10px;
 }
 
 li img {
     padding-left: 15px;
+    padding-top: 5px;
+
 }
 
-.red{
+.red {
     color: red;
 }
 
-
-.last{
+footer {
     position: fixed;
     bottom: 0;
     /*top: 400px;*/
     width: 100%;
     display: flex;
+    left: 0;
     justify-content: space-around;
     /*height: 200px;*/
     /*margin-top: 400px;*/
@@ -145,19 +173,17 @@ li img {
     color: #5fc0cd;
     border: solid thin;
     border-radius: 15px;
-    width: 300px;
+    width: 43%;
     height: 50px;
-    margin-left: 40px;
-    font-size: 36px;
+    font-size: 20px;
 }
 
 .phone {
     background-color: #5fc0cd;
     border: solid thin;
-
     border-radius: 15px;
-    width: 300px;
+    width: 43%;
     height: 50px;
-    font-size: 36px;
+    font-size: 20px;
     color: white;
 }
