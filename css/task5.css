@@ -41,7 +41,6 @@ header {
 
 .heading-text {
     position: absolute;
-
     margin-left: 43%;
 }
 
@@ -109,10 +108,6 @@ ul li {
     width: 20%;
 }
 
-.time span {
-    padding: 20px 0 10px 7px;
-}
-
 .one {
     width: 20%;
 }
@@ -133,6 +128,7 @@ ul li {
     }
 
     .one {
+
         width: 30%;
         white-space: nowrap;
     }
@@ -141,7 +137,6 @@ ul li {
         width: 70%;
     }
 }
-
 .condition img {
     margin-right: 10px;
 }
@@ -159,13 +154,10 @@ li img {
 footer {
     position: fixed;
     bottom: 0;
-    /*top: 400px;*/
     width: 100%;
     display: flex;
     left: 0;
     justify-content: space-around;
-    /*height: 200px;*/
-    /*margin-top: 400px;*/
 }
 
 .message {

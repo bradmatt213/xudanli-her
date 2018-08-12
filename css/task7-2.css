@@ -1,0 +1,126 @@
+body{
+    font-size: 62.5%;
+    background: #29bde0;
+}
+p{
+    margin:0;
+}
+header{
+    width: 100%;
+    background: #29bde0;
+    font-size: 1.8rem;
+    text-align: center;
+    padding-top: 40px;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+header img{
+    width: 20px;
+    height: 20px;
+}
+.theone{
+    position:absolute;
+    left: 20px;
+}
+.thetwo{
+    position: absolute;
+    right: 20px;
+}
+.second{
+    margin-top: 80px;
+    background: #b9e9f5;
+    background-size: 15px 15px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 1.5rem;
+    padding-left: 30px;
+}
+.second:after{
+    content:'\00a0';
+    width:0;
+    height:0;
+    display: block;
+    border-style:solid;
+    position: absolute;
+    border-width:10px;
+    border-color:#b9e9f5 transparent transparent transparent;
+    /*z-index:-1;*/
+    top:124px;
+    bottom:-30px;
+    left:50px;
+}
+.key{
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    top: 93px;
+    right:15px;
+
+}
+audio{
+    opacity: 0;
+}
+/*.special{*/
+    /*position: absolute;*/
+    /*width: 15px;*/
+    /*height: 10px;*/
+    /*top: 123px;*/
+    /*left: 40px;*/
+/*}*/
+.maincontent{
+    margin-top: 10px;
+    margin-bottom: 80px;
+}
+.pick{
+    color: white;
+    font-size: 1.3rem;
+    padding-left: 40px;
+    padding-bottom: 15px;
+}
+.check{
+    width: 30%;
+    border: 2px solid white;
+    height: 80px;
+    float: left;
+    margin-left: 2.6%;
+    margin-bottom: 20px;
+    position: relative;
+}
+.name{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height:60%;
+    text-align: center;
+    background: #f5c97b;
+    font-size: 1.5rem;
+}
+.number{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    height:40%;
+    background: #83b09a;
+    color: white;
+    font-size:1rem;
+}
+footer{
+    width: 100%;
+    position: fixed;
+    background: #29bde0;
+    bottom: 0;
+    text-align: center;
+}
+.choice{
+    width: 77%;
+    height: 40px;
+    background: #fbb435;
+    font-size: 1.8rem;
+    border: none;
+    color: white;
+}
