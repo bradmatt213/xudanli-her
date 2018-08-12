@@ -9,9 +9,7 @@ header{
     width: 100%;
     background: #29bde0;
     font-size: 1.8rem;
-    text-align: center;
-    padding-top: 40px;
-    height: 50px;
+    height: 70px;
     position: fixed;
     top: 0;
     z-index: 10;
@@ -19,6 +17,15 @@ header{
 header img{
     width: 20px;
     height: 20px;
+    position: absolute;
+    top:40px;
+}
+header span{
+    position: absolute;
+    top:71%;
+    color:#fff;
+    left:50%;
+    transform: translate(-50%,-50%);
 }
 .theone{
     position:absolute;

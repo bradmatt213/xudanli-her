@@ -6,26 +6,30 @@
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <style>
-        ul1 li{
-            background: red;
-        }
-        li.opacity1{
-             opacity: 1;
-        }
-    </style>
 </head>
-<body>
-<audio src="../audio/财富自由.mp3"  controls preload="preload"></audio>
-<div class="example">
-    <p>opacity效果</p>
-    <ul class="ul1">
-        <li class="opacity1">100%</li>
-        <li class="opacity2">80%</li>
-        <li class="opacity3">60%</li>
-        <li class="opacity4">40%</li>
-        <li class="opacity5">20%</li><li class="opacity6">0</li>
-    </ul>
+<style>
+    .tt{
+        background: #83b09a;
+        width: 400px;
+        height: 600px;
+        position: relative;
 
+    }
+    .red{
+        position: absolute;
+        background-color: red;
+        /*width: 100px;*/
+        /*height: 80px;*/
+        left: 50%;
+        top: 50%;
+        /*margin-left: -50px;*/
+        /*margin-top: -40px;*/
+        transform:translate(-50%, -50%);
+    }
+</style>
+<body>
+<div class="tt">
+    <div class="red">12345</div>
+</div>
 </body>
 </html>
