@@ -2,74 +2,91 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
-    <title>Title</title>
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="../css/task6-1.css">
     <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <link type="text/css" rel="stylesheet" href="../css/task6.css">
+    <title>Title</title>
 </head>
 <body>
 <header>
     <button class="owner">找雇主</button>
-    <button class="nurse">找护士</button>
-    <img src="../img/icon-1.png" alt="">
+    <button class="nurse">找护工</button>
+    <img class="img-responsive" src="../img/icon-1.png" alt="">
 </header>
-<div class="dropdown col-row">
-    <button type="button" class="btn dropdown-toggle col-xs-4 col-md-4 dd">所在地
-        <span class="caret"></span>
-    </button>
-    <button type="button" class="btn dropdown-toggle col-xs-4 col-md-4 dd">食宿
-        <span class="caret"></span>
-    </button>
-    <button type="button" class="btn dropdown-toggle col-xs-4 col-md-4 dd">病人情况
-        <span class="caret"></span>
-    </button>
-        </div>
+<ul class="nav nav-pills nav-justified">
+    <li class="dropdown firstli">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="">所在地
+        <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+            <li><a href="">西安</a></li>
+            <li><a href="">杭州</a></li>
+            <li><a href="">重庆</a></li>
+        </ul>
+    </li>
+    <li class="dropdown secondli">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="">食宿
+            <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+            <li><a href="">一日三餐</a></li>
+            <li><a href="">一日两餐</a></li>
+            <li><a href="">一日一餐</a></li>
+        </ul>
+    </li>
+    <li class="dropdown">
+        <a class="dropdown-toggle" data-toggle="dropdown" href="">病人情况
+            <span class="caret"></span></a>
+        <ul class="dropdown-menu">
+            <li><a href="">可下地活动</a></li>
+            <li><a href="">可翻身</a></li>
+            <li><a href="">可自己吃饭</a></li>
+        </ul>
+    </li>
+</ul>
 <div class="section">
-    <ul>
-        <li><p class="date">服务日期</p></li>
-        <li><span class="deadline">2015-7-5至2015-7-12</span><span class="vage">25元/小时</span></li>
-        <li class="site"><p>北京.通州.果园</p></li>
-    </ul>
-    <ul>
-        <li><p class="date">服务日期</p></li>
-        <li><span class="deadline">2015-7-5至2015-7-12</span><span class="vage">25元/小时</span></li>
-        <li class="site"><p>北京.通州.果园</p></li>
-    </ul>
-    <ul>
-        <li><p class="date">服务日期</p></li>
-        <li><span class="deadline">2015-7-5至2015-7-12</span><span class="vage">25元/小时</span></li>
-        <li class="site"><p>北京.通州.果园</p></li>
-    </ul>
-    <ul>
-        <li><p class="date">服务日期</p></li>
-        <li><span class="deadline">2015-7-5至2015-7-12</span><span class="vage">25元/小时</span></li>
-        <li class="site"><p>北京.通州.果园</p></li>
-    </ul>
-    <ul>
-        <li><p class="date">服务日期</p></li>
-        <li><span class="deadline">2015-7-5至2015-7-12</span><span class="vage">25元/小时</span></li>
-        <li class="site"><p>北京.通州.果园</p></li>
-    </ul>
-    <ul>
-        <li><p class="date">服务日期</p></li>
-    </ul>
+<ul>
+    <li><p class="date">服务日期</p></li>
+    <li><span class="deadline">2015-7-5-2015-7-12</span><span class="vage">25元/小时</span></li>
+    <li class="cite">北京.通州.果园</li>
+</ul>
+<ul>
+    <li><p class="date">服务日期</p></li>
+    <li><span class="deadline">2015-7-5-2015-7-12</span><span class="vage">25元/小时</span></li>
+    <li class="cite">北京.通州.果园</li>
+</ul>
+<ul>
+    <li><p class="date">服务日期</p></li>
+    <li><span class="deadline">2015-7-5-2015-7-12</span><span class="vage">25元/小时</span></li>
+    <li class="cite">北京.通州.果园</li>
+</ul>
+<ul>
+    <li><p class="date">服务日期</p></li>
+    <li><span class="deadline">2015-7-5-2015-7-12</span><span class="vage">25元/小时</span></li>
+    <li class="cite">北京.通州.果园</li>
+</ul>
+<ul>
+    <li><p class="date">服务日期</p></li>
+    <li><span class="deadline">2015-7-5-2015-7-12</span><span class="vage">25元/小时</span></li>
+    <li class="cite">北京.通州.果园</li>
+</ul>
+<ul>
+    <li><p class="date">服务日期</p></li>
+    <li><span class="deadline">2015-7-5-2015-7-12</span><span class="vage">25元/小时</span></li>
+    <li class="cite">北京.通州.果园</li>
+</ul>
 </div>
 <footer>
-    <div class="bottom">
-        <div>
-            <p><img src="../img/icon-10.jpg" alt=""></>
-            <p class="page">首页</p>
-        </div>
-        <div>
-            <img src="../img/icon-7.jpg" alt="">
-        </div>
-        <div>
-            <p><img src="../img/icon-9.jpg" alt=""></p>
-            <p class="mine">我的</p>
-            </div>
+    <div class="base">
+    <div class="left">
+        <p><img  class="page" src="../img/icon-10.jpg" alt=""></p>
+        <p>首页</p>
+    </div>
+        <span><img class="pen" src="../img/icon-7.jpg" alt=""></span>
+    <div class="right">
+        <p><img  class="mine" src="../img/icon-9.jpg" alt=""></p>
+        <p>我的</p>
+    </div>
     </div>
 </footer>
 </body>
