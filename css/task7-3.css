@@ -37,9 +37,7 @@ header span{
 .bigpage{
     width: 200px;
     padding-top: 10px;
-
 }
-
 .result{
     font-size: 1.5rem;
     color: #ffc865;
@@ -107,6 +105,7 @@ footer{
 
 .nextone{
     width: 40%;
+    /*white-space: nowrap;*/
     height: 40px;
     background: #f66f6f;
     border-radius: 10px;
