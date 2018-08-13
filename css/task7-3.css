@@ -1,3 +1,123 @@
 body{
     font-size: 62.5%;
+    background: #29bde0;
    }
+header{
+    width: 100%;
+    height: 60px;
+    background: #29bde0;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid white;
+    text-align: center;
+}
+header img{
+    width: 20px;
+    height: 20px;
+}
+.one1{
+    position: absolute;
+    left: 25px;
+    top: 30px;
+}
+.one2{
+    position: absolute;
+    top: 30px;
+    right: 25px;
+}
+header span{
+    display: inline-block;
+    margin-top: 30px;
+    font-size: 1.5rem;
+}
+.big{
+    padding-top: 64px;
+    text-align: center;
+}
+.bigpage{
+    width: 200px;
+    padding-top: 10px;
+}
+
+.result{
+    font-size: 1.5rem;
+    color: #ffc865;
+    padding-top: 10px;
+    text-align: left;
+    margin: auto 20px auto 30px;
+}
+
+.d1{
+    margin-top: -38px;
+    font-size: 1.7rem;
+    color: white;
+}
+.mean{
+    color: white;
+    text-align: left;
+    font-size: 1.2rem;
+    margin: auto 20px auto 30px;
+    padding-top: 10px;
+}
+.t1{padding-left: 15px;
+}
+.t2{
+    padding-left: 18px;
+}
+.team{
+    background: white;
+    padding-bottom: 60px;
+}
+
+.team ul{
+    list-style-type: none;
+    border-bottom: 1px solid lightgrey;
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+.firstday{
+    font-size: 1.5rem;
+}
+.time{
+    font-size: 1rem;
+    color: lightgrey;
+    padding-left: 50%;
+}
+.night{
+    font-size: 1.3rem;
+    color:grey;
+}
+.day{
+    padding-bottom: 10px;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(153,223,240,0.6);
+
+}
+
+.nextone{
+    width: 40%;
+    height: 40px;
+    background: #f66f6f;
+    border-radius: 10px;
+    border: none;
+    font-size: 1.5rem;
+}
+.over{
+    width: 40%;
+    height: 40px;
+    background: #fbb435;
+    border-radius: 10px;
+    border: none;
+    margin-left: 10px;
+    font-size: 1.5rem;
+}

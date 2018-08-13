@@ -92,7 +92,7 @@ audio{
     height: 80px;
     float: left;
     margin-left: 2.6%;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     position: relative;
 }
 .name{
@@ -115,6 +115,18 @@ audio{
     background: #83b09a;
     color: white;
     font-size:1rem;
+}
+.iteam{
+    display: none;
+}
+.check:hover .iteam{
+    display: block;
+}
+.iteam img{
+    width: 15px;
+    height: 15px;
+    margin-top: 10px;
+    margin-left: 5px;
 }
 footer{
     width: 100%;

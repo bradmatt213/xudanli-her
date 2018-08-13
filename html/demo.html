@@ -8,28 +8,19 @@
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </head>
 <style>
-    .tt{
-        background: #83b09a;
-        width: 400px;
-        height: 600px;
-        position: relative;
-
-    }
-    .red{
-        position: absolute;
-        background-color: red;
-        /*width: 100px;*/
-        /*height: 80px;*/
-        left: 50%;
-        top: 50%;
-        /*margin-left: -50px;*/
-        /*margin-top: -40px;*/
-        transform:translate(-50%, -50%);
+   .show1{
+       display: none;
+   }
+   .demo:hover .show1{
+        display: block;
+       color:red;
     }
 </style>
 <body>
-<div class="tt">
-    <div class="red">12345</div>
+<div class="demo">
+    hover
+    <div class="show1">显示</div>
 </div>
+
 </body>
 </html>
