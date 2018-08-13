@@ -6,21 +6,43 @@
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <style>
+        。content{
+            width: 90px;
+            position: relative;
+        }
+        .a{
+            left: 0;
+            top: 0;
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background-color: red;
+
+        }
+        .b{
+            background: #29bde0;
+
+        }
+        .c{
+            right: 0;
+            top: 0;
+            position: absolute;
+            width: 100px;
+            height: 100px;
+            background: yellow;
+
+        }
+    </style>
 </head>
-<style>
-   .show1{
-       display: none;
-   }
-   .demo:hover .show1{
-        display: block;
-       color:red;
-    }
-</style>
+
 <body>
-<div class="demo">
-    hover
-    <div class="show1">显示</div>
+<div class="content">
+    <div class="a">我在左边</div>
+    <div class="b">我在中间</div>
+    <div class="c">我在右边</div>
 </div>
+
 
 </body>
 </html>

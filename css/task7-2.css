@@ -28,11 +28,9 @@ header span{
     transform: translate(-50%,-50%);
 }
 .theone{
-    position:absolute;
     left: 20px;
 }
 .thetwo{
-    position: absolute;
     right: 20px;
 }
 .second{
@@ -87,23 +85,25 @@ audio{
     padding-bottom: 15px;
 }
 .check{
-    width: 30%;
     border: 2px solid white;
-    height: 80px;
-    float: left;
-    margin-left: 2.6%;
-    margin-bottom: 30px;
-    position: relative;
+}
+.a{
+    width: 30%;
+    /*float: left;*/
+    display: inline-block;
+    margin-left: 2.3%;
+    margin-bottom: 15px;
 }
 .name{
     display: flex;
     align-items: center;
     justify-content: center;
     width: 100%;
-    height:60%;
     text-align: center;
     background: #f5c97b;
     font-size: 1.5rem;
+    padding: 20% 20%;
+
 }
 .number{
     display: flex;
@@ -111,7 +111,6 @@ audio{
     justify-content: center;
     width: 100%;
     text-align: center;
-    height:40%;
     background: #83b09a;
     color: white;
     font-size:1rem;
@@ -119,14 +118,14 @@ audio{
 .iteam{
     display: none;
 }
-.check:hover .iteam{
+.a:hover .iteam{
     display: block;
 }
 .iteam img{
     width: 15px;
     height: 15px;
-    margin-top: 10px;
-    margin-left: 5px;
+    margin-top: 10%;
+    margin-left:4%;
 }
 footer{
     width: 100%;
