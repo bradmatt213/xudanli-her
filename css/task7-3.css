@@ -81,7 +81,7 @@ header span{
 .time{
     font-size: 1rem;
     color: lightgrey;
-    padding-left: 50%;
+    margin-right: 15px;
 }
 .night{
     font-size: 1.3rem;
@@ -89,6 +89,10 @@ header span{
 }
 .day{
     padding-bottom: 10px;
+}
+.team ul li:first-child{
+    display: flex;
+    justify-content: space-between;
 }
 
 footer{
