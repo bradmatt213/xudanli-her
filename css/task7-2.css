@@ -114,10 +114,12 @@ audio{
     font-size:1rem;
 }
 .iteam{
-    display: none;
+    /*display: none;*/
+    visibility: hidden;
 }
 .a:hover .iteam{
-    display: block;
+    /*display: block;*/
+    visibility: visible;
 }
 .iteam img{
     width: 15px;

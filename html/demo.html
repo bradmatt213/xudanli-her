@@ -7,42 +7,114 @@
     <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <style>
-        。content{
-            width: 90px;
-            position: relative;
-        }
-        .a{
-            left: 0;
-            top: 0;
-            position: absolute;
-            width: 100px;
-            height: 100px;
-            background-color: red;
+        /*.content{*/
+            /*width: 90px;*/
+            /*position: relative;*/
+        /*}*/
+        /*.a{*/
+            /*left: 0;*/
+            /*top: 0;*/
+            /*position: absolute;*/
+            /*width: 100px;*/
+            /*height: 100px;*/
+            /*background-color: red;*/
 
-        }
-        .b{
+        /*}*/
+        /*.b{*/
+            /*background: #29bde0;*/
+
+        /*}*/
+        /*.c{*/
+            /*right: 0;*/
+            /*top: 0;*/
+            /*position: absolute;*/
+            /*width: 100px;*/
+            /*height: 100px;*/
+            /*background: yellow ;*/
+        /*}*/
+.th{
+    color: #29bde0;
+text-decoration: underline;
+}
+        /*.dd{*/
+            /*!*display: inline;*!*/
+
+            /*!*display:inline-table;*!*/
+
+        /*}*/
+        /*td{*/
+            /*display: none;*/
+        /*}*/
+        .table{
             background: #29bde0;
-
         }
-        .c{
-            right: 0;
-            top: 0;
-            position: absolute;
-            width: 100px;
-            height: 100px;
-            background: yellow;
-
+        .box1{
+            display: flex;
+            justify-content: space-between;
+            margin: auto 20px auto 20px;
+        }
+        .box2{
+            display: flex;
+            justify-content:  space-between;
+            margin: auto 40px auto 40px;
+        }
+        .mm img{
+            box-shadow: 10px 10px red;
         }
     </style>
 </head>
 
 <body>
-<div class="content">
-    <div class="a">我在左边</div>
-    <div class="b">我在中间</div>
-    <div class="c">我在右边</div>
+<div class="container">
+    <div class="row">
+        <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">日期</div>
+        </div>
+        <div class="row">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">2015-7-5-20015-7-15</div>
+            <div class="col-xs-8 col-sm-8 col-md-8 col-lg-8">25元/小时</div>
+            </div>
+         <div class="row">
+            <div class="col-xs-4 col-sm-4 col-md-4 col-lg-4">北京通州果园</div>
+    </div>
+    </div>
+<div class="dropdown">
+    <button type="button" class="btn dropdowm-toggle" id="dropdownMenu1" data-toggle="dropdown">
+        主题
+        <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+        <li role="presentation">
+            <a role="menuitem" href="">1</a>
+        </li>
+        <li>1</li>
+        <li>1</li>
+    </ul>
+
 </div>
 
+
+<a  class="th" href="">忘记密码哦</a>
+
+<h1>123</h1>
+<div class="td">
+    <p class="dd">123</p>
+    <p class="dd">456</p>
+    <p class="dd">123</p>
+</div>
+<h3>123</h3>
+<div class="table">
+    <div class="box1">
+        <img src="../img/葡萄藤logo.png" alt="">
+        <img src="../img/usericon.png" alt="">
+    </div>
+    <div class="box2">
+        <p>123</p>
+        <p>456</p>
+    </div>
+</div>
+<div class="mm">
+<img src="../img/ca.png" alt="">
+</div>
 
 </body>
 </html>
