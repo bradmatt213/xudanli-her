@@ -36,21 +36,98 @@ header span{
 .hello2 span{
     font-size: 1.8rem;
 }
+.one1{
+    margin-top: 40px;
+}
+.c1{
+    text-align: center;
+}
+.c2{
+    text-align: left;
+
+}
 .a1{
     width: 20px;
-    /*height: 20px;*/
-    margin-top: 10px;
     margin-bottom: 10px;
 }
 .a2{
-    background: url("../img/iu.png") no-repeat;
-    padding-left: 10px;
+    width: 33px;
+    margin-bottom: 10px;
+}
+.a3{
+    width: 25px;
+    margin-bottom: 10px;
+}
+.a5{
+    background: url("../img/iu.png") no-repeat 1px center;
+    background-size: 10px;
+    padding-left: 15px;
+}
+
+.c2{
+    text-align: left;
+    /*border-right: 1px solid lightgrey;*/
+}
+.d1{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    border-radius: 15px;
+    /*background: #5fc0cd;*/
+    box-shadow: 1px 1px 1px lightgrey;
+    position: absolute;
+    top: -5px;
+    left: 12px;
+}
+.one2{
+    margin-top: 40px;
+}
+.d1 p{
+    text-align: center;
+    color: #29b078;
+}
+.d2{
+    padding-left: 40px;
+    padding-right: 20px;
+    background: url("../img/dd.png") no-repeat 140px center;
+    background-size: 22px;
+}
+.d3{
+    padding-left: 40px;
+    padding-right: 25px;
 }
 .b1{
     text-align: center;
+    padding-bottom: 20px;
+}
+.e1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid lightgrey;
+    border-radius: 6px;
+    box-shadow: 1px 1px lightgrey;
+}
+.e1 img{
+    width: 80px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+.e2{
+    text-align: left;
+    padding-left: 10px;
+}
+.e3{
+    padding-top: 10px;
+    padding-bottom: 15px;
+}
+.row1{
+    padding-top: 20px;
 }
 .student{
     text-align: center;
+    margin-top: 40px;
 }
 .round{
     width: 50%;
@@ -72,6 +149,7 @@ header span{
 }
 .partner{
     text-align: center;
+    padding-bottom: 20px;
 }
 .logo{
     width: 100%;
@@ -80,20 +158,26 @@ header span{
 .logo1{
     display: inline-block;
     width: 18%;
+    box-shadow: 1px 1px 1px lightgrey;
 }
 .logo1 img{
     width: 100%;
+    height: 80px;
 }
-/*.ca{*/
-    /*border: 1px solid lightgrey;*/
-/*}*/
+
 .friend{
     text-align: center;
+    padding-top: 20px;
 }
-.link li {
-    float: left;
-    width: 68px;
+.link{
+    padding-bottom: 10px
 }
+.link li{
+       float: left;
+       width: 10%;
+       /*color: lightgrey;*/
+}
+
 footer{
     margin-top: 40px;
     background: #29b078;
