@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+}
+.call{
+    width: 100%;
+    /*margin: 0 auto;*/
+}
+.call1{
+    width: 1200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+}
+.call span:first-child{
+    color: #42b683;
+}
+.call img{
+    width: 20px;
+}
+.call a{
+    margin-left: 10px;
+}
+.introduction{
+    width: 100%;
+    background: #29b078;
+    height: 60px;
+    line-height: 60px;
+}
+.row{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.row img{
+    width: 50px;
+}
+.four span{
+   color: white;
+    font-size: 1.2rem;
+    padding-left: 10px;
+}
+.picture img{
+    width: 100%;
+}
+.mainpage{
+    width: 100%;
+    padding-top: 20px;
+}
+.mainpage span{
+    color: #29b078;
+}
+.title{
+    width: 1200px;
+    margin: 0 auto;
+}
+.mainbody{
+    width: 100%;
+    padding-top: 20px;
+}
+.mainbody1{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+.leftside {
+    width: 30%;
+    outline: 1px solid lightgrey;
+    box-shadow: 1px 1px 1px lightgrey;
+    text-align: center;
+    height: 600px;
+}
+.leftside ul{
+    list-style-type: none;
+}
+.leftside li{
+    padding-top: 10px;
+}
+.leftside a{
+    color: #29b078;
+}
+.rightside{
+    width: 65%;
+    margin-left: 5%;
+    outline: 1px solid lightgrey;
+    text-align: left;
+    padding: auto 10px auto 10px;
+    height: 800px;
+}
+.rightside p{
+    text-indent: 2rem;
+    color: #c3c3c3;
+}
+.list{
+    padding-left: 40px;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 10px;
+}
+.leftside li{
+    background: url("../img/redcircle.png") no-repeat 90px center;
+}
+.leftside a:hover{
+    color: red;
+}
+.ciecle{
+    width: 30px;
+    height: 30px;
+    border-radius: 15%;
+    display: inline-block;
+    background: red;
+}
+.sign{
+    width: 200px;
+    height: 115px;
+    float: left;
+
+}
+.footer{
+    width: 100%;
+    background:#42b683;
+    margin-top: 40px;
+   border-bottom: 1px solid white;
+}
+.footerlist{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+.footerlist img{
+    width: 40px;
+}
+.tfoot{
+    width: 100%;
+    background:#42b683;
+    color: white;
+    text-align: center;
+}

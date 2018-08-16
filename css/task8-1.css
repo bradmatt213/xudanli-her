@@ -1,11 +1,33 @@
 body{
     font-size: 62.5%;
 }
+.content{
+    width: 100%;
+}
+.content1{
+    width: 1200px;
+    height: 40px;
+    line-height: 40px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.content1 span:first-child{
+    color: #42b683;
+}
+.content1 img{
+    width: 20px;
+}
+.content1 a{
+    padding-left: 10px;
+}
 header{
     background: #29b078;
     text-align: right;
-    /*padding-left: 80px;*/
-
+}
+.header1{
+    width: 1200px;
+    margin: 0 auto;
 }
 header span{
     display: inline-block;
@@ -15,14 +37,15 @@ header span{
     font-size: 1rem;
     margin-right: 25px;
 }
+header span:hover{
+    border-bottom: 1px solid white;
+}
+
 .hello {
     /*width: 100%;*/
     /*height: 200px;*/
     /*text-align: center;*/
 }
-
-
-
 .one1{
     margin-top: 60px;
 }
@@ -31,6 +54,7 @@ header span{
 }
 .c2{
     text-align: left;
+    border-left: 1px dashed lightgrey;
 
 }
 .a1{
@@ -53,7 +77,6 @@ header span{
 
 .c2{
     text-align: left;
-    /*border-right: 1px solid lightgrey;*/
 }
 .d1{
     width: 30px;
@@ -76,7 +99,7 @@ header span{
 .d2{
     padding-left: 40px;
     padding-right: 20px;
-    background: url("../img/dd.png") no-repeat 140px center;
+    background: url("../img/dd.png") no-repeat right center;
     background-size: 22px;
 }
 .d3{
@@ -166,10 +189,27 @@ header span{
 }
 
 footer{
-    margin-top: 40px;
+    margin: 0 auto;
     background: #29b078;
+    border-bottom: 1px solid white;
+}
+.footer1{
+    width: 1200px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:10px;
+
 }
 footer img{
     width: 30px;
 }
-
+footer p{
+    color: white;
+}
+.tfoot{
+    text-align: center;
+    background:#29b078;
+    color: white;
+}
