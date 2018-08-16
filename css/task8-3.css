@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+}
+.thead{
+    width: 100%;
+}
+.thead1{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #29b078;
+}
+.thead a{
+    margin-left: 10px;
+}
+.head{
+    width: 100%;
+   background: #29b078;
+    height: 60px;
+    line-height: 60px;
+}
+.head img{
+    width: 50px;
+}
+.head1{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+.social span{
+    margin-left: 10px;
+    color: white;
+    font-size: 1rem;
+}
+.social span:hover{
+    border-bottom: 1px solid white;
+}
+.three{
+   width: 100%;
+    margin-top: 20px;
+}
+.two{
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+.three span{
+    color: #29b078;
+}
+.include{
+    width: 100%;
+}
+.include1{
+    width: 1200px;
+    margin: 0 auto;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+
+.include li{
+   display: inline;
+}
+.maintable{
+    width: 400px;
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid lightgrey;
+}
+.hard{
+    border-collapse: collapse;
+}
+.hard, td, th{
+    border: 1px solid lightgrey;
+}
+.hare,td{
+    height: 40px;
+}
+.td1{
+    text-align: left;
+}
+.td2{
+    text-align: center;
+}
+.detial{
+    color: #dadada;
+    padding-right: 20px;
+}
+.detial1{
+    color: red;
+}
+.detial2{
+padding-left: 30px;
+    padding-right: 60px;
+}
+.hardest{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+
+}
