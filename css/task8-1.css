@@ -16,28 +16,15 @@ header span{
     margin-right: 25px;
 }
 .hello {
-    background: url("../img/pad.png") no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 200px;
-    text-align: center;
-    padding-top: 50px
+    /*width: 100%;*/
+    /*height: 200px;*/
+    /*text-align: center;*/
 }
 
 
-.hello1{
-    color: white;
-    font-size: 1.2rem;
-}
-.hello2{
-    color: white;
-    font-size: 1.4rem;
-}
-.hello2 span{
-    font-size: 1.8rem;
-}
+
 .one1{
-    margin-top: 40px;
+    margin-top: 60px;
 }
 .c1{
     text-align: center;
