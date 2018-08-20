@@ -1,0 +1,281 @@
+header {
+    width: 1200px;
+    display: flex;
+    margin: 10px auto;
+    justify-content: space-between;
+}
+
+header a {
+    margin-left: 8px;
+}
+
+@media screen and (max-width: 1200px) {
+    header {
+        width: 100%;
+    }
+}
+
+.second {
+    width: 100%;
+    background: #29b078;
+}
+
+.second1 {
+    width: 1200px;
+    margin: 0 auto;
+    text-align: right;
+}
+
+.second1 span {
+    display: inline-block;
+    margin-left: 10px;
+    height: 60px;
+    line-height: 60px;
+    color: white;
+}
+
+.second1 span:hover {
+    border-bottom: 1px solid white;
+}
+
+.pick {
+    display: none;
+}
+
+@media screen and (max-width: 1200px) {
+    .second1 {
+        display: none;
+    }
+
+    .pick {
+        display: block;
+    }
+
+    .dropdown-menu {
+        width: 100%;
+        background: #0F9E5E;
+    }
+}
+
+.line {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.line1 {
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 40px;
+    border-left: 1px dashed lightgrey;
+    margin-top: 80px;
+}
+
+.picture {
+    width: 60px;
+    height: 60px;
+    margin: 20px auto;
+}
+
+.long {
+    color: lightgrey;
+    text-align: left;
+}
+
+.number {
+    background: url("../img/iu.png") no-repeat 0 center;
+    padding-left: 20px;
+}
+
+@media screen and (max-width: 1200px) {
+    .long {
+        text-align: center;
+    }
+
+    .line1 {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+.start {
+    margin-top: 40px;
+    padding-bottom: 20px;
+}
+
+.learning {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+}
+
+.circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 1px lightgrey;
+    padding-left: 11px;
+    padding-top: 6px;
+    color: #0ab077;
+}
+
+.eight {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.eight1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 30px;
+}
+
+.eight1 .circle {
+    margin-right: 30px;
+}
+
+@media screen and (max-width: 1200px) {
+    .eight1 {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0;
+    }
+
+    .eight1 .circle {
+        margin: 0;
+    }
+
+    .eight1d {
+        width: 30px;
+    }
+}
+
+.ask {
+    width: 55%;
+    color: lightgrey;
+}
+
+.rate {
+    margin-top: 40px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid lightgrey;
+    box-shadow: 1px 1px 1px lightgrey;
+    padding: 20px 20px;
+    margin-top: 20px;
+}
+
+.name {
+    font-weight: bold;
+    margin: 40px auto;
+}
+
+.circle2 {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background: green;
+}
+
+.circle1 {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50px;
+    background: lightgrey;
+}
+
+.firm {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media screen and (max-width: 1200px) {
+    .firm {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+ li {
+    float: left;
+    width: 10%;
+    list-style-type: none;
+}
+
+li a {
+    color: lightgrey;
+    background: url("../img/blackcircle.png") no-repeat left center;
+    padding-left: 10px;
+}
+
+ li a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid lawngreen;
+
+}
+
+@media screen and (max-width: 1200px) {
+    li {
+        width: 100%;
+        float: none;
+        text-align: center;
+    }
+}
+.footer{
+    width: 100%;
+    background:#29b078;
+    margin-top: 30px;
+}
+.footer1{
+    padding:20px 15px;
+}
+.footer1 p{
+    color: white;
+}
+.footer1 a{
+    color: white;
+    margin-right: 10px;
+}
+.footer1 a:hover{
+    text-decoration: none;
+    border-bottom: 1px solid lime;
+}
+.your{
+    margin-top: 30px;
+}
+.aime{
+    width: 80px;
+}
+.weixin{
+    padding-left: 150px;
+}
+@media screen and (max-width: 1200px){
+.footer1{
+    text-align: center;
+}
+    .your{
+        margin-top: 0;
+    }
+    .weixin{
+        padding-left: 0;
+    }
+    .last{
+        margin-bottom: 20px;
+    }
+}
+.tfoot{
+    text-align: center;
+    color: white;
+    border-top: 2px solid #32c086;
+}

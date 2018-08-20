@@ -1,0 +1,141 @@
+header{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    line-height: 40px;
+}
+.first a{
+    margin-left: 8px;
+}
+.first div:first-child{
+    color: #79c7a3;
+}
+@media screen and (max-width: 1200px){
+    header{
+        width: 100%;
+    }
+
+}
+.second{
+    background: #79c7a3;
+}
+.second1{
+    width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 80px;
+}
+.second1 img{
+    width: 80px;
+}
+.second1 span{
+    margin-left: 10px;
+    padding-bottom: 30px;
+}
+.second1 span:hover{
+    border-bottom: 2px solid white;
+}
+@media screen and (max-width: 1200px){
+    .second1{
+        width: 100%;
+    }
+}
+
+.picture img{
+    width: 100%;
+}
+.page{
+   margin: 30px auto;
+}
+.page span{
+    color: #72c49e;
+}
+.left{
+    outline: 1px solid lightgrey;
+    box-shadow: 1px 1px 1px lightgrey;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.left ul{
+    padding: 0;
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+.company{
+    margin-top: 10px ;
+}
+.left li{
+    margin-top: 20px;
+}
+.left a{
+    color: #72c49e ;
+    text-decoration: none;
+    background: url("../img/redcircle.png") no-repeat left center;
+    padding-left: 12px;
+}
+.left a:hover{
+    background: url("../img/redcircle1.png") no-repeat left center;
+    padding-left: 10px;
+    color: red;
+}
+.right{
+    outline: 1px solid lightgrey;
+    box-shadow: 1px 1px 1px lightgrey;
+    margin-left: 80px;
+    padding: 20px 40px;
+}
+.right p{
+    text-indent: 2rem;
+}
+.tudou{
+    float: left;
+    width: 100px;
+}
+.year{
+    margin-top: 50px;
+}
+@media screen and (max-width: 1200px){
+    .left{
+        text-align: center;
+    }
+
+    .right{
+        margin-left: 0;
+        margin-top: 20px;
+        padding:0;
+    }
+}
+.footer{
+    margin-top: 60px;
+    width: 100%;
+    background:#26a26f;
+}
+.footer a{
+    color: white;
+}
+.footer p{
+    color: white;
+    margin-top: 20px;
+}
+.mine{
+    padding-top: 30px;
+}
+.last{
+    padding-left: 180px;
+}
+.last img{
+    width: 80px;
+}
+.tf{
+    margin-top: 10px;
+    border-top:1px solid #32c086;
+    text-align: center;
+    color: white;
+}

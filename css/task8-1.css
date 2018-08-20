@@ -19,6 +19,7 @@
     width: 20px;
 }
 .content1 a{
+    text-align: center;
     padding-left: 10px;
 }
 header{
@@ -28,70 +29,82 @@ header{
 .header1{
     width: 1200px;
     margin: 0 auto;
+    color:white;
 }
 header span{
     display: inline-block;
     height: 40px;
     width: 30px;
     line-height: 40px;
-    font-size: 1rem;
-    margin-right: 25px;
+    text-align:center;
+    font-size: 1.5rem;
+    margin-left: 25px;
 }
 header span:hover{
     border-bottom: 1px solid white;
 }
 
-.hello {
-    /*width: 100%;*/
-    /*height: 200px;*/
-    /*text-align: center;*/
-}
 .one1{
     margin-top: 60px;
 }
 .c1{
     text-align: center;
 }
+.bold{
+    font-weight: bold;
+    font-size: 2rem;
+}
+
 .c2{
     text-align: left;
+    color:lightgrey;
+    font-size: 1.4rem;
+}
+.bold1{
+    color:lightgrey;
+    font-size: 1.4rem;
 }
 .c3{
     border-left: 1px dashed lightgrey;
+    padding-top: 20px;
 }
 .a1{
-    width: 20px;
-    margin-bottom: 10px;
+    display: block;
+    width:  60px;
+    margin: 0px auto 10px auto;
+    height: 60px;
 }
 .a2{
-    width: 33px;
-    margin-bottom: 10px;
+    display: block;
+    width:  60px;
+    margin: 0px auto 10px auto;
+    height: 60px;
 }
 .a3{
-    width: 25px;
-    margin-bottom: 10px;
+    display: block;
+    width:  60px;
+    margin: 0px auto 10px auto;
+    height: 60px;
 }
 .a5{
     background: url("../img/iu.png") no-repeat 1px center;
     background-size: 10px;
     padding-left: 15px;
 }
-
-.c2{
-    text-align: left;
-}
 .d1{
-    width: 30px;
-    height: 30px;
-    line-height: 30px;
-    border-radius: 15px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50%;
     /*background: #5fc0cd;*/
     box-shadow: 1px 1px 1px lightgrey;
     position: absolute;
     top: -5px;
-    left: 12px;
+    left: 10px;
 }
 .one2{
     margin-top: 40px;
+    color: lightgrey;
 }
 .d1 p{
     text-align: center;
@@ -101,7 +114,7 @@ header span:hover{
     padding-left: 40px;
     padding-right: 20px;
     background: url("../img/dd.png") no-repeat right center;
-    background-size: 22px;
+    background-size: 25px;
 }
 .d3{
     padding-left: 40px;
@@ -110,6 +123,8 @@ header span:hover{
 .b1{
     text-align: center;
     padding-bottom: 20px;
+    font-weight: bold;
+    color: black;
 }
 .e1{
     display: flex;
@@ -129,10 +144,15 @@ header span:hover{
 .e2{
     text-align: left;
     padding-left: 10px;
+    padding-right: 10px;
+    color: lightgrey;
 }
 .e3{
     padding-top: 10px;
     padding-bottom: 15px;
+}
+.m2{
+    font-weight: bold;
 }
 .row1{
     padding-top: 20px;
@@ -140,6 +160,7 @@ header span:hover{
 .student{
     text-align: center;
     margin-top: 40px;
+    font-weight: bold;
 }
 .round{
     width: 50%;
@@ -159,61 +180,70 @@ header span:hover{
     border-radius: 50px;
     background: #f0f0f0;
 }
-.partner{
-    padding-top: 20px;
-    box-shadow: 1px 1px 1px lightgrey;
-    width: 1200px;
-    margin: 0 auto;
-}
 .partner1{
     text-align: center;
-    padding-bottom: 20px;
-}
-
-.logo1 {
-    display: inline-block;
-    width: 18%;
-}
-.logo1 img{
-    margin: auto 20px;
-    /*width: 100%;*/
-    /*height: 80px;*/
-}
-.friend{
-    width: 1200px;
-    margin: 0 auto;
-    padding-bottom: 20px;
-}
-.friend1{
-    text-align: center;
     padding-top: 20px;
 }
-.link{
-    padding-bottom: 10px
+.logo{
+    display: flex;
+    padding:0;
+    justify-content: space-between;
 }
-.link li{
-       float: left;
-       width: 10%;
-       /*color: lightgrey;*/
+.logo1:hover{
+    box-shadow:1px 1px 1px 1px lightgrey;
 }
+.logo1 {
+    display: inline-block;
+    /*width: 18%;*/
+    /*text-align: center;*/
+}
+.friend{
+    text-align: center;
+    padding:0 20px;
 
+}
+.link{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 12px;
+    color: lightgrey;
+}
+.link a{
+    color: lightgrey;
+}
+.link li:hover{
+    border-bottom: 1px solid #29b078;
+}
 footer{
     margin: 0 auto;
     padding-top: 20px;
     background: #29b078;
+    border-bottom: 2px solid #32c086;
+    padding-bottom: 10px;
+}
+.picture{
+    width: 84px;
+
+}
+.me{
+    display: inline-block;
+    margin-right: 10px;
+    color: white;
+    text-decoration: none;
+}
+.type{
+    padding-left: 120px;
+}
+.footer1 a:hover{
+    text-decoration: none;
     border-bottom: 1px solid white;
-}
-.footer1{
-    width: 1200px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-footer img{
-    width: 30px;
+    color: white;
 }
 footer p{
     color: white;
+}
+.second{
+    margin-top: 40px;
 }
 .tfoot{
     text-align: center;

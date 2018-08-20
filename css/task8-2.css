@@ -113,6 +113,7 @@ body{
     outline: 1px solid lightgrey;
     text-align: left;
     height: 800px;
+    padding:50px;
 }
 .rightside p{
     text-indent: 2rem;
