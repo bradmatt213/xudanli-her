@@ -1,17 +1,33 @@
-header {
+.header {
     width: 1200px;
     display: flex;
     margin: 10px auto;
     justify-content: space-between;
 }
 
-header a {
+.header a {
     margin-left: 8px;
 }
-
+.phone{
+    display: none;
+}
 @media screen and (max-width: 1200px) {
-    header {
+    .header {
         width: 100%;
+    }
+    .phone{
+        display: block;
+    }
+    .hotline{
+        display: none;
+    }
+    .icons{
+        display: none;
+    }
+    .phone{
+        width: 100%;
+        text-align: right;
+        padding-right: 20px;
     }
 }
 
@@ -54,6 +70,10 @@ header a {
     .dropdown-menu {
         width: 100%;
         background: #0F9E5E;
+        color: white;
+    }
+    .dropdown-toggle{
+        text-align: right!important;
     }
 }
 

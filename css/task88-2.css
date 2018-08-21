@@ -1,141 +1,175 @@
-header{
-    width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+
+header {
     height: 40px;
     line-height: 40px;
 }
-.first a{
+
+.pull-right a {
     margin-left: 8px;
 }
-.first div:first-child{
+
+.pull-left {
     color: #79c7a3;
 }
+.link{
+    display: none;
+}
 @media screen and (max-width: 1200px){
-    header{
+    .link{
+        display: inline-block;
         width: 100%;
+        text-align: right;
     }
-
+    .link span{
+        margin-left: 10px;
+    }
+    .hotline{
+        display: none;
+    }
+    .type{
+        display: none;
+    }
 }
-.second{
+.mynavbar {
     background: #79c7a3;
+    line-height: 80px;
 }
-.second1{
-    width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 80px;
-}
-.second1 img{
+
+.mynavbar img {
     width: 80px;
 }
-.second1 span{
+
+.mynavbar span {
     margin-left: 10px;
     padding-bottom: 30px;
-}
-.second1 span:hover{
-    border-bottom: 2px solid white;
-}
-@media screen and (max-width: 1200px){
-    .second1{
-        width: 100%;
-    }
+    color: white;
 }
 
-.picture img{
+.mynavbar span:hover {
+    border-bottom: 2px solid white;
+}
+.nav-pills{
+    display: none;
+}
+@media screen and (max-width: 1200px){
+    .nav-pills{
+        display: inline-block;
+
+    }
+   .one{
+       display: none;
+       float: none;
+   }
+}
+.picture img {
     width: 100%;
 }
-.page{
-   margin: 30px auto;
+.page {
+    margin: 30px auto;
 }
-.page span{
+
+.page span {
     color: #72c49e;
 }
-.left{
+
+.left {
     outline: 1px solid lightgrey;
     box-shadow: 1px 1px 1px lightgrey;
     text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    padding: 0;
+
 }
-.left ul{
+
+.left ul {
     padding: 0;
     list-style-type: none;
     margin-bottom: 10px;
 }
-.company{
-    margin-top: 10px ;
+.company {
+    margin-top: 20px;
+    border-bottom: 1px solid lightgrey;
+    padding-bottom: 20px;
 }
-.left li{
+
+.left li {
     margin-top: 20px;
 }
-.left a{
-    color: #72c49e ;
+.left a {
+    color: #72c49e;
     text-decoration: none;
     background: url("../img/redcircle.png") no-repeat left center;
     padding-left: 12px;
 }
-.left a:hover{
+.left a:hover {
     background: url("../img/redcircle1.png") no-repeat left center;
-    padding-left: 10px;
     color: red;
 }
 .right{
     outline: 1px solid lightgrey;
     box-shadow: 1px 1px 1px lightgrey;
-    margin-left: 80px;
-    padding: 20px 40px;
+    float: right;
+    padding: 0;
+
+    /*float: right;*/
+    /*border: solid 1px red;*/
 }
-.right p{
+.content{
     text-indent: 2rem;
+    color: lightgrey;
+    padding: 20px 30px;
 }
-.tudou{
+.firstparagraph{
+    margin: 40px auto;
+    padding-bottom: 10px;
+    border-bottom: 1px solid lightgrey;
+}
+.tudou {
     float: left;
-    width: 100px;
+    width:103px;
 }
-.year{
-    margin-top: 50px;
-}
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1200px) {
     .left{
-        text-align: center;
+
     }
 
-    .right{
-        margin-left: 0;
-        margin-top: 20px;
-        padding:0;
-    }
 }
-.footer{
+
+
+.footer {
     margin-top: 60px;
     width: 100%;
-    background:#26a26f;
+    background: #26a26f;
 }
-.footer a{
+
+.footer a {
     color: white;
 }
-.footer p{
+
+.footer p {
     color: white;
     margin-top: 20px;
 }
-.mine{
+
+.mine {
     padding-top: 30px;
 }
-.last{
+
+.last {
     padding-left: 180px;
 }
-.last img{
+
+.last img {
     width: 80px;
 }
-.tf{
+@media screen and (max-width: 1200px){
+    .last{
+        padding-left: 15px;
+    }
+
+}
+.tf {
     margin-top: 10px;
-    border-top:1px solid #32c086;
+    border-top: 1px solid #32c086;
     text-align: center;
     color: white;
 }

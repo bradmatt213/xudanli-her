@@ -1,55 +1,45 @@
-body{
-    margin: 0;
+/*body{*/
+    /*margin: 0;*/
+/*}*/
+header{
+    height: 40px;
+    line-height: 40px;
 }
-.thead{
-    width: 100%;
+.hotline{
+    color: #79c7a3;
 }
-.thead1{
-    width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: #29b078;
-}
-.thead a{
+.type a{
     margin-left: 10px;
 }
-.head{
-    width: 100%;
-    background: #29b078;
-    height: 60px;
-    line-height: 60px;
+
+.bgd{
+    background: #79c7a3;
+    line-height: 80px;
 }
-.head img{
-    width: 50px;
+.logo img{
+    width: 80px;
 }
-.head1{
-    width: 1200px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.social span{
-    margin-left: 10px;
+.four span{
     color: white;
-    font-size: 1rem;
-    padding-bottom: 15px;
+    margin-left: 10px;
+    padding-bottom: 30px;
 }
-.social span:hover{
-    border-bottom: 1px solid white;
+.four span:hover {
+    border-bottom: 2px solid white;
 }
+
+
 .job{
     margin: 40px auto;
     padding: 0;
-  border-bottom: 1px solid lightgrey;
+   border-bottom: 1px solid lightgrey;
 }
 .job span{
     color: #a7d7c0;
 }
 .job1{
     margin-bottom: 20px;
+    padding: 0;
     border-bottom: 1px solid lightgrey;
 }
 .job1 li{
@@ -132,6 +122,7 @@ body{
     width: 100%;
     height: 100%;
     background: black;
+    opacity: 0;
 
     transition:width 2s, height 2s;
     -moz-transition:width 2s, height 2s, -moz-transform 2s; /* Firefox 4 */
