@@ -1,6 +1,7 @@
-/*body{*/
-    /*margin: 0;*/
-/*}*/
+
+html{
+    overflow-x: hidden;
+}
 header{
     height: 40px;
     line-height: 40px;
@@ -9,9 +10,35 @@ header{
     color: #79c7a3;
 }
 .type a{
-    margin-left: 10px;
+    margin-left: 8px;
 }
+.link{
+    display: none;
+    color: black;
+    padding-right: 20px;
+}
+.link a{
+    color: black;
+    padding-left: 10px;
+}
+.link span:first-child{
+    border-right: 1px solid #29b078;
+    padding-right: 10px;
+}
+@media screen and (max-width: 1200px){
+    .hotline{
+        display: none;
+    }
+    .type{
+        display: none;
+    }
+    .link{
+        display: inline-block;
+        width: 100%;
+        text-align: right;
+    }
 
+}
 .bgd{
     background: #79c7a3;
     line-height: 80px;
@@ -21,26 +48,44 @@ header{
 }
 .four span{
     color: white;
-    margin-left: 10px;
+    margin-left: 8px;
     padding-bottom: 30px;
 }
 .four span:hover {
     border-bottom: 2px solid white;
 }
-
-
+.nav-pills{
+    display: none;
+}
+@media screen and (max-width: 1200px){
+    .four{
+        display: none;
+    }
+    .nav-pills{
+        display: inline-block;
+        float: right;
+    }
+    .dropdown-toggle{
+        padding: 0;
+    }
+    .logo img{
+        padding-top: 15px;
+    }
+    .dropdown-menu{
+        min-width: 0;
+    }
+}
 .job{
-    margin: 40px auto;
-    padding: 0;
-   border-bottom: 1px solid lightgrey;
+    margin: 40px 0;
+}
+.job p{
+    border-bottom: 1px solid lightgrey;
 }
 .job span{
     color: #a7d7c0;
 }
 .job1{
     margin-bottom: 20px;
-    padding: 0;
-    border-bottom: 1px solid lightgrey;
 }
 .job1 li{
     display: inline-block;
@@ -49,6 +94,7 @@ header{
 
 .job1 ul{
     padding: 0;
+    border-bottom: 1px solid lightgrey;
 }
 
 .job1 span{
@@ -77,8 +123,12 @@ header{
     height: 100px;
     margin-top: 15px;
 }
+   .web{
+       padding: 20px 10px 0px 10px;
+}
 .hard{
     border-collapse: collapse;
+    width: 100%;
 }
 .hard, td, th{
     border: 1px solid lightgrey;
@@ -102,9 +152,11 @@ header{
 }
 .detial2{
     padding-left: 30px;
-    padding-right: 60px;
 }
-
+.vage{
+    padding-right: 30px;
+    float: right;
+}
 
 .end{
     margin-top: 30px;
@@ -134,6 +186,15 @@ header{
     -moz-transform:rotate(360deg); /* Firefox 4 */
     -webkit-transform:rotate(360deg); /* Safari and Chrome */
     -o-transform:rotate(360deg); /* Opera */
+}
+
+@media screen and (max-width:500px ){
+    td{
+        font-size: 10px;
+    }
+    .top p{
+        font-size: 10px;
+    }
 }
 .footer{
     width: 100%;

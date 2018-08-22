@@ -1,3 +1,7 @@
+
+/*html{*/
+    /*overflow-x: hidden;*/
+/*}*/
 .header {
     width: 1200px;
     display: flex;
@@ -45,13 +49,14 @@
 .second1 span {
     display: inline-block;
     margin-left: 10px;
+    padding: 0 20px;
     height: 60px;
     line-height: 60px;
     color: white;
 }
 
 .second1 span:hover {
-    border-bottom: 1px solid white;
+    border-bottom: 2px solid white;
 }
 
 .pick {
@@ -119,16 +124,25 @@
 
 .start {
     margin-top: 40px;
-    padding-bottom: 20px;
 }
+.learning1{font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 60px;
 
-.learning {
+}
+/*.learning {*/
+    /*font-weight: bold;*/
+    /*text-align: center;*/
+    /*margin-top: 40px;*/
+    /*margin-bottom: 40px;*/
+/*}*/
+.learning3 {
     font-weight: bold;
     text-align: center;
     margin-top: 40px;
-    margin-bottom: 80px;
+    margin-bottom: 20px;
 }
-
 .circle {
     width: 30px;
     height: 30px;
@@ -200,24 +214,27 @@
 
 .circle2 {
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     border-radius: 50px;
-    background: green;
+    background:#29b078;
 }
 
 .circle1 {
     display: inline-block;
-    width: 20px;
-    height: 20px;
+    width: 15px;
+    height: 15px;
     border-radius: 50px;
-    background: lightgrey;
+    box-shadow: 1px 1px 1px lightgrey;
 }
 
 .firm {
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+.firm img:hover{
+    box-shadow: 1px 1px 1px lightgrey;
 }
 
 @media screen and (max-width: 1200px) {
@@ -227,26 +244,28 @@
     }
 }
 
- li {
+ .friendLink li {
     float: left;
     width: 10%;
     list-style-type: none;
+     padding-bottom: 10px;
 }
 
-li a {
+.friendLink li a {
     color: lightgrey;
     background: url("../img/blackcircle.png") no-repeat left center;
     padding-left: 10px;
+    padding-bottom: 5px;
 }
 
- li a:hover {
+ .friendLink li a:hover {
     text-decoration: none;
     border-bottom: 1px solid lawngreen;
 
 }
 
 @media screen and (max-width: 1200px) {
-    li {
+    .friendLink li {
         width: 100%;
         float: none;
         text-align: center;
@@ -254,7 +273,7 @@ li a {
 }
 .footer{
     width: 100%;
-    background:#29b078;
+    background:#26a26f;
     margin-top: 30px;
 }
 .footer1{
@@ -269,7 +288,7 @@ li a {
 }
 .footer1 a:hover{
     text-decoration: none;
-    border-bottom: 1px solid lime;
+    border-bottom: 1px solid white;
 }
 .your{
     margin-top: 30px;
@@ -297,5 +316,5 @@ li a {
 .tfoot{
     text-align: center;
     color: white;
-    border-top: 2px solid #32c086;
+    border-top: 1px solid #32c086;
 }

@@ -3,25 +3,29 @@ header {
     height: 40px;
     line-height: 40px;
 }
-
 .pull-right a {
     margin-left: 8px;
 }
-
 .pull-left {
     color: #79c7a3;
 }
 .link{
     display: none;
 }
+.link span:first-child{
+    border-right: 1px solid #29b078;
+    padding-right: 10px;
+
+}
+.link a{
+    color: black;
+    padding-left: 10px;
+}
 @media screen and (max-width: 1200px){
     .link{
         display: inline-block;
         width: 100%;
         text-align: right;
-    }
-    .link span{
-        margin-left: 10px;
     }
     .hotline{
         display: none;
@@ -30,36 +34,48 @@ header {
         display: none;
     }
 }
+.one a{
+    text-decoration: none;
+}
 .mynavbar {
-    background: #79c7a3;
+    background:  #29b078;
     line-height: 80px;
 }
 
-.mynavbar img {
+.topimg {
     width: 80px;
 }
 
-.mynavbar span {
+.one span {
     margin-left: 10px;
     padding-bottom: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
     color: white;
 }
 
-.mynavbar span:hover {
+.one span:hover {
     border-bottom: 2px solid white;
 }
 .nav-pills{
     display: none;
 }
-@media screen and (max-width: 1200px){
-    .nav-pills{
+@media screen and (max-width: 1200px) {
+    .nav-pills {
         display: inline-block;
-
+        float: right;
     }
-   .one{
-       display: none;
-       float: none;
-   }
+    .one {
+        display: none;
+    }
+
+    .topimg{
+        padding-top: 15px;
+        padding-left: 15px;
+    }
+    .dropdown-menu{
+        min-width: 0;
+    }
 }
 .picture img {
     width: 100%;
@@ -83,16 +99,18 @@ header {
 .left ul {
     padding: 0;
     list-style-type: none;
-    margin-bottom: 10px;
+    margin-bottom: 40px;
+
 }
 .company {
     margin-top: 20px;
     border-bottom: 1px solid lightgrey;
-    padding-bottom: 20px;
+    padding: 20px 0px;
 }
 
 .left li {
     margin-top: 20px;
+
 }
 .left a {
     color: #72c49e;
@@ -129,7 +147,14 @@ header {
 }
 @media screen and (max-width: 1200px) {
     .left{
-
+        width: 80%;
+        float: none;
+        margin: 0 auto;
+    }
+    .right{
+        width: 80%;
+        float: none;
+        margin: 0 auto;
     }
 
 }
