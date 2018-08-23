@@ -152,7 +152,71 @@
     <option value="Ford">
     <option value="Volvo">
 </datalist>
+<br>
+<br>
 
+<div class="container" style="background: #29bde0; height: 400px; width: 400px">
+    <div class="row">
+        <div class="col-md-6" style="background: red; height: 200px; width: 200px">
+
+        <div class="row">
+            <div class="col-md-3" style="background: black; height: 40px"></div>
+            <div class="col-md-3" style="background: #999999; height: 50px"></div>
+        </div>
+        </div>
+    </div>
+</div>
+<style>
+
+
+    .con1{
+        width:100px;
+        height:100px;
+        border: 1px solid gray;
+        margin-bottom: -20px;
+    }
+    .con2{
+        width:100px;
+        height:100px;
+        border: 1px solid gray;
+        margin-top: 50px;
+    }
+
+</style>
+<div class="con1"></div>
+<div class="con2"></div>
+<h2>创建模态框（Modal）</h2>
+<!-- 按钮触发模态框 -->
+<button class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+    开始演示模态框
+</button>
+<!-- 模态框（Modal） -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">
+                    &times;
+                </button>
+                <h4 class="modal-title" id="myModalLabel">
+                    模态框（Modal）标题
+                </h4>
+            </div>
+            <div class="modal-body">
+                在这里添加一些文本
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">关闭
+                </button>
+                <button type="button" class="btn btn-primary">
+                    提交更改
+                </button>
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal -->
+</div>
+<div style="background:lightsteelblue;width: 200px;height: 200px;position: absolute"></div>
+<p>123</p>
 
 </body>
 </html>
