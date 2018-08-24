@@ -47,9 +47,10 @@ header {
     text-decoration: none;
     color: white;
     text-align: center;
+    font-size: 16px;
 }
 .one a:hover {
-    border-bottom: 2px solid white;
+    border-bottom: 3px solid white;
 }
 .nav-pills{
     display: none;
@@ -135,7 +136,7 @@ header {
 }
 .content{
     text-indent: 2rem;
-    color: #a0a0a0;
+    color:#999999;
     padding: 20px 30px;
 }
 .firstparagraph{
@@ -220,4 +221,6 @@ header {
     border-top: 1px solid #32c086;
     text-align: center;
     color: white;
+    font-size: 12px;
+    padding: 5px 0;
 }

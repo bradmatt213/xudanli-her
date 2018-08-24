@@ -1,6 +1,5 @@
-
 /*html{*/
-    /*overflow-x: hidden;*/
+/*overflow-x: hidden;*/
 /*}*/
 .header {
     width: 1200px;
@@ -8,30 +7,38 @@
     margin: 10px auto;
     justify-content: space-between;
 }
-.hotline{
-    color:#29b078;
+
+.hotline {
+    color: #29b078;
 }
+
 .icons a {
     margin-left: 8px;
 }
-.phone{
+
+.phone {
     display: none;
 }
+
 @media screen and (max-width: 1200px) {
     .header {
         width: 100%;
     }
-    .phone{
+
+    .phone {
         display: block;
 
     }
-    .hotline{
+
+    .hotline {
         display: none;
     }
-    .icons{
+
+    .icons {
         display: none;
     }
-    .phone{
+
+    .phone {
         width: 100%;
         text-align: right;
         padding-right: 20px;
@@ -57,10 +64,11 @@
     width: 60px;
     text-decoration: none;
     text-align: center;
+    font-size: 16px;
 }
 
 .second1 a:hover {
-    border-bottom: 2px solid white;
+    border-bottom: 3px solid white;
 }
 
 .pick {
@@ -80,9 +88,10 @@
         min-width: 0;
         background: #29b078;
     }
-    .dropdown-toggle{
-        background: #29b078!important;
-        text-align: right!important;
+
+    .dropdown-toggle {
+        background: #29b078 !important;
+        text-align: right !important;
     }
 }
 
@@ -106,7 +115,7 @@
 }
 
 .long {
-    color: lightgrey;
+    color: #999999;
     text-align: left;
 }
 
@@ -130,24 +139,29 @@
 .start {
     margin-top: 40px;
 }
-.learning1{font-weight: bold;
+
+.learning1 {
+    font-weight: bold;
     text-align: center;
     margin-top: 40px;
     margin-bottom: 60px;
 
 }
+
 .learning {
     font-weight: bold;
     text-align: center;
     margin-top: 40px;
     margin-bottom: 40px;
 }
+
 .learning3 {
     font-weight: bold;
     text-align: center;
     margin-top: 40px;
     margin-bottom: 20px;
 }
+
 .circle {
     width: 40px;
     height: 40px;
@@ -194,17 +208,18 @@
 
 .ask {
     width: 60%;
-    color: lightgrey;
+    color: #999999;
 }
-@media screen and (max-width: 1200px){
+
+@media screen and (max-width: 1200px) {
     .ask {
         width: 60%;
         color: lightgrey;
         text-align: center;
     }
 
-
 }
+
 .rate {
     margin-top: 40px;
 }
@@ -230,7 +245,7 @@
     width: 15px;
     height: 15px;
     border-radius: 50px;
-    background:#29b078;
+    background: #29b078;
 }
 
 .circle1 {
@@ -246,7 +261,8 @@
     justify-content: space-between;
     align-items: center;
 }
-.firm img:hover{
+
+.firm img:hover {
     box-shadow: 1px 1px 1px lightgrey;
 }
 
@@ -257,21 +273,21 @@
     }
 }
 
- .friendLink li {
+.friendLink li {
     float: left;
     width: 10%;
     list-style-type: none;
-     padding-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 .friendLink li a {
-    color: lightgrey;
+    color: #999999;
     background: url("../img/blackcircle.png") no-repeat left 33%;
     padding-left: 10px;
     padding-bottom: 5px;
 }
 
- .friendLink li a:hover {
+.friendLink li a:hover {
     text-decoration: none;
     border-bottom: 1px solid lawngreen;
 
@@ -283,62 +299,77 @@
         float: none;
         text-align: center;
     }
-    .friendLink ul{
+
+    .friendLink ul {
         padding: 0;
     }
 }
-.footer{
+
+.footer {
     width: 100%;
-    background:#26a26f;
+    background: #26a26f;
     margin-top: 20px;
 }
 
-.footer1 p{
+.footer1 p {
     color: white;
 }
-.footer1 a{
+
+.footer1 a {
     color: white;
     margin-right: 10px;
     padding-bottom: 5px;
 }
-.last{
+
+.last {
     padding: 30px 0;
 }
-.your{
+
+.your {
     padding-top: 28px;
 }
-.aime{
+
+.aime {
     width: 80px;
 }
-.weixin{
+
+.weixin {
     padding-top: 25px;
 }
-.aime{
+
+.aime {
     margin-top: -3px;
 }
-.lastright{
+
+.lastright {
     padding-left: 100px;
 }
-.footer1 a:hover{
+
+.footer1 a:hover {
     text-decoration: none;
     border-bottom: 1px solid white;
 }
-@media screen and (max-width: 1200px){
-    .lastright{
+
+@media screen and (max-width: 1200px) {
+    .lastright {
         padding-left: 0px;
     }
-    .footer1{
+
+    .footer1 {
         padding-left: 35px;
     }
 }
 
-.tfoot{
+.tfoot {
     text-align: center;
     color: white;
     border-top: 1px solid #32c086;
+    font-size: 12px;
+    padding: 5px 0;
 }
-@media screen and (max-width: 1200px){
-    .tfoot{
+
+@media screen and (max-width: 1200px) {
+    .tfoot {
         margin-top: 15px;
     }
 }
