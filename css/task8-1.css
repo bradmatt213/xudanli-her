@@ -10,6 +10,7 @@
 
 .hotline {
     color: #29b078;
+    font-size: 14px;
 }
 
 .icons a {
@@ -313,6 +314,7 @@
 
 .footer1 p {
     color: white;
+    font-size: 16px;
 }
 
 .footer1 a {
@@ -365,7 +367,7 @@
     color: white;
     border-top: 1px solid #32c086;
     font-size: 12px;
-    padding: 5px 0;
+    padding: 10px 0;
 }
 
 @media screen and (max-width: 1200px) {

@@ -82,6 +82,7 @@ header {
 }
 .page {
     margin: 30px auto;
+    font-size: 16px;
 }
 
 .page span {
@@ -110,16 +111,18 @@ header {
     margin-top: 20px;
     border-bottom: 1px solid lightgrey;
     padding-left: 40%;
-    padding-bottom: 10px;
+    padding-bottom: 20px;
     padding-top: 10px;
+    font-size: 16px;
 }
 
 .left li {
-    margin-top: 25px;
+    margin-top: 30px;
 
 }
 .left a {
     color: #29b078;
+    font-size: 14px;
     text-decoration: none;
     background: url("../img/redcircle.png") no-repeat left center;
     padding-left: 12px;
@@ -139,8 +142,13 @@ header {
     color:#999999;
     padding: 20px 30px;
 }
+.content1{
+    text-indent: 2rem;
+    color:#999999;
+    padding: 10px 30px;
+}
 .firstparagraph{
-    margin: 40px auto;
+    margin: 20px auto;
     padding-bottom: 10px;
     border-bottom: 1px solid lightgrey;
 }
@@ -153,6 +161,12 @@ header {
         width: 80%;
         float: none;
         margin: 0 auto;
+    }
+    .left ul {
+        padding-left: 39%;
+
+
+
     }
     .right{
         width: 80%;
@@ -168,16 +182,16 @@ header {
 }
 .footer p{
     color: white;
+    font-size: 16px;
 }
 .footer a {
     color: white;
 }
 .aime{
     width: 80px;
+    padding-bottom: 5px;
 }
-.colum{
-    height: 110px;
-}
+
 .last{
     height: 100%;
     display: flex;
@@ -195,32 +209,16 @@ header {
 .tree{
     padding-top: 10px;
 }
-/*.footer p {*/
-    /*color: white;*/
-    /*margin-top: 20px;*/
-/*}*/
-
-/*.mine {*/
-    /*padding-top: 30px;*/
-/*}*/
-
-/*.last {*/
-    /*padding-left: 180px;*/
-/*}*/
-
-/*.last img {*/
-    /*width: 80px;*/
-/*}*/
-/*@media screen and (max-width: 1200px){*/
-    /*.last{*/
-        /*padding-left: 15px;*/
-    /*}*/
-/*}*/
-.tf {
-    /*margin-top: 10px;*/
+.your{
+    padding-top: 27px;
+}
+.weixin{
+    padding-top: 8px;
+}
+.tfoot{
     border-top: 1px solid #32c086;
     text-align: center;
     color: white;
     font-size: 12px;
-    padding: 5px 0;
+    padding: 10px 0;
 }

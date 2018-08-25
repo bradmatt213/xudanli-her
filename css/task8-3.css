@@ -83,23 +83,26 @@ header{
 }
 .job{
     margin: 40px 0;
+
 }
 .job p{
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 1px solid #999999;
+    font-size: 16px;
+    padding-bottom: 20px;
 }
 .job span{
     color: #a7d7c0;
 }
-.job1{
-    margin-bottom: 20px;
-}
+/*.job1{*/
+    /*margin-bottom: 20px;*/
+/*}*/
 .job1 li{
     display: inline-block;
     padding-left: 10px;
 }
 
 .job1 ul{
-    padding: 0;
+    padding: 0px 0px 20px 0px;
     border-bottom: 1px solid lightgrey;
 }
 
@@ -114,9 +117,10 @@ header{
     color: #29b078 ;
 }
 .direction{
-    margin: 30px auto;
-    border-bottom: 1px solid lightgrey;
-    padding-bottom: 10px;
+    margin: 20px auto;
+    border-bottom: 1px solid #999999;
+    padding-bottom: 20px;
+    font-size: 16px;
 }
 .top{
     display: flex;
@@ -132,6 +136,9 @@ header{
    .web{
        padding: 20px 10px 0px 10px;
 }
+.title2{
+    font-size: 16px;
+}
 .hard{
     border-collapse: collapse;
     width: 100%;
@@ -141,6 +148,7 @@ header{
 }
 .hare,td{
     height: 30px;
+    font-size: 12px;
 }
 .td1{
     text-align: left;
@@ -181,7 +189,7 @@ header{
     width: 100%;
     height: 100%;
     background: black;
-    opacity: 0.6;
+    opacity: 0.7;
     transition:width 2s, height 2s;
     -moz-transition:width 2s, height 2s, -moz-transform 2s; /* Firefox 4 */
     -webkit-transition:width 2s, height 2s, -webkit-transform 2s; /* Safari and Chrome */
@@ -216,6 +224,7 @@ header{
 }
 .footer p{
     color: white;
+    font-size: 16px;
 }
 .footer a{
     color: white;
@@ -235,5 +244,5 @@ header{
     text-align: center;
     border-top: 2px solid #32c086;
     font-size: 12px;
-    padding: 5px 0;
+    padding: 10px 0;
 }
