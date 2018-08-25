@@ -86,7 +86,7 @@ header{
 
 }
 .job p{
-    border-bottom: 1px solid #999999;
+    border-bottom: 1px solid #d0d6d9;
     font-size: 16px;
     padding-bottom: 20px;
 }
@@ -103,7 +103,7 @@ header{
 
 .job1 ul{
     padding: 0px 0px 20px 0px;
-    border-bottom: 1px solid lightgrey;
+    border-bottom: 1px solid edf1f2;
 }
 
 .job1 span{
@@ -118,7 +118,7 @@ header{
 }
 .direction{
     margin: 20px auto;
-    border-bottom: 1px solid #999999;
+    border-bottom: 1px solid #d0d6d9;
     padding-bottom: 20px;
     font-size: 16px;
 }
@@ -207,7 +207,7 @@ header{
 }
 
 .special:hover .transform{
-    display: block;
+    display: inline-block;
 }
 @media screen and (max-width:500px ){
     td{

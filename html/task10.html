@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <script src="https://cdn.bootcss.com/jquery/2.1.1/jquery.min.js"></script>
     <script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -11,20 +12,21 @@
 <body>
 <header>
     <div class="icons">
-        <div class="hotline">客服热线：010-594-78634</div>
-        <div class="sign">
+        <span class="hotline">客服热线：010-594-78634</span>
+        <span class="sign">
             <a href="">注册</a>
             <a href="">登陆</a>
-        </div>
+        </span>
     </div>
 </header>
+<div class="second">
     <div class="page">
         <button type="button" class="btn btn-primary" data-toggle="button">首页</button>
-        <button type="button" class="btn btn-primary btn1" data-toggle="button">在线定制</button>
-        <button type="button" class="btn btn-primary btn1" data-toggle="button">标准箱</button>
-        <button type="button" class="btn btn-primary btn1" data-toggle="button">品质保障</button>
+        <button type="button" class="btn btn-default btn1" data-toggle="button">在线定制</button>
+        <button type="button" class="btn btn-default btn1" data-toggle="button">标准箱</button>
+        <button type="button" class="btn btn-default btn1" data-toggle="button">品质保障</button>
     </div>
-
+</div>
 <div class="mybar">
    <div class="progress">
     <div class="progress-bar progress-bar-warning" role="progressbar"
@@ -49,8 +51,8 @@
 </div>
 
 <div class="content">
-    <p><img src="../img/borderblue.png" alt="">
-        <b>请您按照以下步骤来定制您的纸箱</b></p>
+    <p class="box"><img src="../img/borderblue.png" alt="">
+        请您按照以下步骤来定制您的纸箱</p>
     <div class="panel panel-default">
         <div class="panel-heading heading1">
             <img src="../img/box.png" alt="">
@@ -58,24 +60,23 @@
         </div>
         <div class="panel-body">
             <div class="pull-left">
-            <input type="radio">对口箱
-            <input type="radio">飞机盒
-            <input type="radio">天地盖
-        </div>
+            <input type="radio">
+                <lable>对口箱</lable>
+            <input type="radio" class="box"><span class="box1">飞机盒</span>
+            <input type="radio" class="box"><span class="box1">天地盖</span>
+           </div>
             <div class="dropdown pull-right">
                 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
                         查看详情
-                        <span class="caret"></span>
+                        <!--<span class="caret"></span>-->
+                    <img src="../img/bluesanjiao.png" alt="">
                     </button>
                     <ul class="dropdown-menu">
                         <li><a href="#">下拉链接</a></li>
                         <li><a href="#">下拉链接</a></li>
                     </ul>
-            </div>
+             </div>
         </div>
-    </div>
-
-    <div class="panel panel-default">
         <div class="panel-heading heading1">
             <img src="../img/ruler.png" alt="">
                 确定尺寸
@@ -88,17 +89,17 @@
                     <span>宽</span><input class="standard" type="text"><span>mm</span>
                      <span>高</span><input class="standard" type="text"><span>mm</span>
                   </div>
-                <div class="inner">
+                  <div class="inner">
                     <input type="radio">内径
                       <span>长</span><input class="standard" type="text"><span>mm</span>
                       <span>宽</span><input class="standard" type="text"><span>mm</span>
                       <span>高</span><input class="standard" type="text"><span>mm</span>
-                </div>
-            </div>
+                   </div>
+                 </div>
                 <div class="dropdown pull-right">
                     <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
                         查看详情
-                        <span class="caret"></span>
+                        <img src="../img/bluesanjiao.png" alt="">
                     </button>
                     <ul class="dropdown-menu">
                         <li><a href="#">下拉链接</a></li>
@@ -106,8 +107,6 @@
                     </ul>
                 </div>
             </div>
-    </div>
-    <div class="panel panel-default">
         <div class="panel-heading heading1">
             <img src="../img/cut.png" alt="">
             选择材质
@@ -117,11 +116,11 @@
             <input type="radio">三层A瓦优质
             <input type="radio">三层A瓦优质
             <input type="radio">三层A瓦优质
-        </div>
+            </div>
             <div class="dropdown pull-right">
                 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
                     查看详情
-                    <span class="caret"></span>
+                    <img src="../img/bluesanjiao.png" alt="">
                 </button>
                 <ul class="dropdown-menu">
                     <li><a href="#">下拉链接</a></li>
@@ -129,8 +128,10 @@
                 </ul>
             </div>
         </div>
+      <div class="next">
+        <button type="button" class="btn btn-danger btn2">下一步</button>
+        </div>
     </div>
-    <button type="button" class="btn btn-danger">下一步</button>
 </div>
 
 <footer>
