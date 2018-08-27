@@ -28,13 +28,13 @@
     </div>
 </div>
 <div class="mybar">
-   <div class="progress">
-    <div class="progress-bar progress-bar-warning" role="progressbar"
-         aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
-         style="width: 25%;">
-        <span class="sr-only">25% 完成（警告）</span>
+    <div class="progress">
+        <div class="progress-bar progress-bar-warning" role="progressbar"
+             aria-valuenow="60" aria-valuemin="0" aria-valuemax="100"
+             style="width: 25%;">
+            <span class="sr-only">25% 完成（警告）</span>
+        </div>
     </div>
-   </div>
     <div class="figure">
         <span class="circle1">1</span>
         <span class="circle">2</span>
@@ -56,66 +56,49 @@
     <div class="panel panel-default">
         <div class="panel-heading heading1">
             <img src="../img/box.png" alt="">
-            选择箱型
+            <span class="select">选择箱型</span>
         </div>
         <div class="panel-body">
             <div class="pull-left">
-            <input type="radio">
-                <lable>对口箱</lable>
-            <input type="radio" class="box"><span class="box1">飞机盒</span>
-            <input type="radio" class="box"><span class="box1">天地盖</span>
-           </div>
+                <input type="radio" name="aa" id="bb">
+                <label for="bb" class="aime">对口箱</label>
+                <input type="radio" name="aa" id="bb1">
+                <label for="bb1" class="aime">飞机盒</label>
+                <input type="radio" name="aa" id="bb3">
+                <label for="bb3" class="aime">天地盖</label>
+            </div>
             <div class="dropdown pull-right">
                 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                        查看详情
-                        <!--<span class="caret"></span>-->
+                    查看详情
+                    <!--<span class="caret"></span>-->
                     <img src="../img/bluesanjiao.png" alt="">
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">下拉链接</a></li>
-                        <li><a href="#">下拉链接</a></li>
-                    </ul>
-             </div>
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">下拉链接</a></li>
+                    <li><a href="#">下拉链接</a></li>
+                </ul>
+            </div>
         </div>
         <div class="panel-heading heading1">
             <img src="../img/ruler.png" alt="">
-                确定尺寸
-            </div>
-            <div class="panel-body">
-                <div class="pull-left">
-                  <div class="outer">
-                    <input type="radio">外径
-                    <span>长</span><input class="standard" type="text"><span>mm</span>
-                    <span>宽</span><input class="standard" type="text"><span>mm</span>
-                     <span>高</span><input class="standard" type="text"><span>mm</span>
-                  </div>
-                  <div class="inner">
-                    <input type="radio">内径
-                      <span>长</span><input class="standard" type="text"><span>mm</span>
-                      <span>宽</span><input class="standard" type="text"><span>mm</span>
-                      <span>高</span><input class="standard" type="text"><span>mm</span>
-                   </div>
-                 </div>
-                <div class="dropdown pull-right">
-                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
-                        查看详情
-                        <img src="../img/bluesanjiao.png" alt="">
-                    </button>
-                    <ul class="dropdown-menu">
-                        <li><a href="#">下拉链接</a></li>
-                        <li><a href="#">下拉链接</a></li>
-                    </ul>
-                </div>
-            </div>
-        <div class="panel-heading heading1">
-            <img src="../img/cut.png" alt="">
-            选择材质
+            确定尺寸
         </div>
         <div class="panel-body">
             <div class="pull-left">
-            <input type="radio">三层A瓦优质
-            <input type="radio">三层A瓦优质
-            <input type="radio">三层A瓦优质
+                <div class="outer">
+                    <input type="radio" name="cc" id="dd">
+                    <label for="dd" class="aime">外径</label>
+                    <span class="select1">长</span><input class="standard" type="text"><span class="select2">mm</span>
+                    <span class="select1">宽</span><input class="standard" type="text"><span class="select2">mm</span>
+                    <span class="select1">高</span><input class="standard" type="text"><span class="select2">mm</span>
+                </div>
+                <div class="inner">
+                    <input type="radio" name="cc" id="dd1">
+                    <label for="dd1" class="aime">内径</label>
+                    <span class="select1">长</span><input class="standard" type="text"><span class="select2">mm</span>
+                    <span class="select1">宽</span><input class="standard" type="text"><span class="select2">mm</span>
+                    <span class="select1">高</span><input class="standard" type="text"><span class="select2">mm</span>
+                </div>
             </div>
             <div class="dropdown pull-right">
                 <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
@@ -128,35 +111,59 @@
                 </ul>
             </div>
         </div>
-      <div class="next">
-        <button type="button" class="btn btn-danger btn2">下一步</button>
+        <div class="panel-heading heading1">
+            <img src="../img/cut.png" alt="">
+            选择材质
+        </div>
+        <div class="panel-body">
+            <div class="pull-left">
+                <input type="radio" name="ee" id="ff">
+                <label for="ff" class="aime">三层A瓦优质</label>
+                <input type="radio" name="ee" id="ff1">
+                <label for="ff1" class="aime">三层A瓦优质</label>
+                <input type="radio" name="ee" id="ff2">
+                <label for="ff2" class="aime">三层A瓦优质</label>
+            </div>
+            <div class="dropdown pull-right">
+                <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">
+                    查看详情
+                    <img src="../img/bluesanjiao.png" alt="">
+                </button>
+                <ul class="dropdown-menu">
+                    <li><a href="#">下拉链接</a></li>
+                    <li><a href="#">下拉链接</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="next">
+            <button type="button" class="btn btn-danger btn2">下一步</button>
         </div>
     </div>
 </div>
 
 <footer>
-<div class="footer1">
-    <div class="left">
-        <p>51包装网—纸箱包装首选服务平台</p>
-    </div>
-    <div class="middle">
-        <p><a href="">关于我们</a>
-            <a href="">配送流程</a>
-            <a href="">联系我们</a>
-        </p>
-        <p><a href="">下单指南</a>
-            <a href="">媒体介绍</a>
-        </p>
-    </div>
-    <div class="right">
-        <div><p>TEL：400-0000-000</p>
-            <p>企业QQ：123456789</p>
-            <p>微信号：XXXXXXX</p>
+    <div class="footer1">
+        <div class="left">
+            <p>51包装网—纸箱包装首选服务平台</p>
         </div>
-        <div><img src="../img/xiaowei.png" alt="">
+        <div class="middle">
+            <p><a href="">关于我们</a>
+                <a href="">配送流程</a>
+                <a href="">联系我们</a>
+            </p>
+            <p><a href="">下单指南</a>
+                <a href="">媒体介绍</a>
+            </p>
+        </div>
+        <div class="right">
+            <div><p>TEL：400-0000-000</p>
+                <p>企业QQ：123456789</p>
+                <p>微信号：XXXXXXX</p>
+            </div>
+            <div><img src="../img/xiaowei.png" alt="">
+            </div>
         </div>
     </div>
-</div>
 </footer>
 <div class="tfooter">
     <span>北京五一包装科技有限公司Copyright©2015</span>

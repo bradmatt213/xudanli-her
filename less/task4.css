@@ -1,0 +1,40 @@
+@charset "CESU-8";
+/*
+    * Busy 收集 整理
+ */
+/*雅虎（YUI 3）reset*/
+/*Normalize.css*/
+.first {
+  float: right;
+  display: inline;
+}
+.center {
+  width: 200px;
+  height: 100px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.ment {
+  background: #0ab077;
+  width: 500px;
+  height: 400px;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.aa {
+  display: block;
+}
+.bb {
+  display: inline;
+}
+.cc {
+  display: block;
+  font-weight: 700;
+  font-size: 18px;
+}
+.table {
+  height: 60px;
+  width: 200px;
+  background: #0d99a5;
+}

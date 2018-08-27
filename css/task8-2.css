@@ -40,6 +40,9 @@ header {
 .topimg {
     width: 80px;
 }
+.noe{
+    width: 1185px!important;
+}
 .one a{
     display: inline-block;
     height: 80px;

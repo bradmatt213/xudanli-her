@@ -32,6 +32,22 @@ header{
     color: black;
     text-align: center;
 }
+@media screen and (max-width: 600px){
+    .icons{
+        width: 100%;
+        padding: 0 0 0 15px;
+    }
+    .hotline{
+        font-size: 12px;
+    }
+    .sign a:last-child{
+        width: 55px;
+        font-size: 12px;
+    }
+    .sign a:first-child{
+        font-size: 12px;
+    }
+}
 .second{
     height: 100px;
     background: #f9f9f9;
@@ -51,11 +67,25 @@ header{
     border-right: 1px solid #e6e6e6;
     border-bottom:1px solid #e6e6e6;
 }
+@media screen and (max-width:1100px){
+    .page{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .page button{
+        font-size: 10px;
+        /*width: 30%;*/
+        margin-left: 0;
+    }
+}
 .mybar {
     width: 62%;
     float: right;
     padding-right: 19%;
-    margin-top: 20px;
+    margin-top: 40px;
     /*position: relative;*/
 }
 .step{
@@ -99,6 +129,16 @@ header{
     padding-left: 5px;
     color: white;
 }
+@media screen and (max-width: 900px){
+    .mybar{
+        width: 100%;
+        float: none;
+        padding-right: 0;
+    }
+.step{
+    font-size: 12px;
+}
+}
 .content{
     width: 62%;
     margin: 120px auto;
@@ -116,12 +156,9 @@ header{
 .standard{
     width: 70px;
 }
-.outer{
-    margin-bottom: 20px;
+.select{
+    font-size: 18px;
 }
-/*.box{*/
-    /*display: none;*/
-/*}*/
 
 input[type="radio"] + label::before {
     content: "\a0"; /*不换行空格*/
@@ -133,7 +170,31 @@ input[type="radio"] + label::before {
     margin-right: .4em;
     border-radius: 50%;
     border: 1px solid #cccccc;
-
+}
+input[type="radio"]:checked + label::before {
+    background-color: white;
+    border: 7px solid #1d7ad9;
+    background-clip: content-box;
+    padding: .2em;
+}
+input[type="radio"]{
+    display: none;
+}
+.aime{
+    font-size: 18px;
+    font-weight: normal;
+    margin-right: 60px;
+}
+.select1{
+    font-size: 18px;
+    padding-right: 10px;
+}
+.select2{
+    font-size: 18px;
+    padding-left: 10px;
+}
+.outer{
+    margin-bottom: 20px;
 }
 .next{
     height: 280px;
@@ -146,25 +207,59 @@ input[type="radio"] + label::before {
 .btn2{
     width: 178px;
 }
-.footer{
+@media screen and (max-width: 1600px){
+    .content{
+        width: 100%;
+        padding: 0 10px;
+    }
+.box{
+    font-size: 14px;
+    padding-left: 10px;
+}
+.select{
+    font-size: 12px;
+}  .aime{
+        font-size: 14px;
+   }
+    .heading1{
+        font-size: 14px;
+    }
+    .select1{
+        font-size: 14px;
+
+    }
+    .select2{
+        font-size: 14px;
+
+    }
+    .pull-left{
+        display: flex;
+        flex-direction: column;
+    }
+}
+footer{
     width: 100%;
     background: #f9f9f9;
-    height: 200px;
+    height: 207px;
+    margin-top: 50px;
 }
 .footer1{
     width: 62%;
-    margin: 40px auto;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 60px 0;
 }
-.footer1 p{
+.left p{
     color: #999999;
+    font-size: 18px;
 }
 .middle a{
     color: #999999;
     text-decoration: none;
     padding-left: 10px;
+    font-size: 14px;
 }
 .middle a:hover{
     color: #3985db;
@@ -172,6 +267,24 @@ input[type="radio"] + label::before {
 .right{
     display: flex;
     justify-content: space-between;
+}
+.right p{
+    color: #999999;
+    font-size: 14px;
+}
+.right img{
+    width: 80px;
+}
+@media screen and (max-width: 1200px){
+    .footer1{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+.left p{
+    font-size: 14px;
+}
 }
 .tfooter{
     width: 100%;

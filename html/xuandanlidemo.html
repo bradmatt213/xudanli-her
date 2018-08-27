@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<style>
+    .father{
+        width:100%;
+        height:50px;
+        background:#0d99a5;
+        margin-bottom:50px;
+    }
+    .child{
+        width:20%;
+        height:20px;
+        background:yellow;
+        margin:10px;
+        padding:10px;
+    }
+    .spanf span{
+        display:inline-block;
+        width:100%;
+        height:80px;
+        padding-left:30px;
+        margin-left: 20px;
+        padding-top:30px;
+
+    }
+    .inlineb{
+        display:inline-block;
+        width:80%;
+        height:50px;
+        padding-top:30px;
+        margin-left:30px;
+    }
+</style>
+<body>
+<!--内联和块级的区别-->
+<div>
+    我是一个div
+</div>
+<form action="">
+    <input type="text"/>
+</form>
+<p>我是一个p</p>
+<span>我是一个span</span><a href="">我是一个link</a><em>我是强调的em</em><strong>强调</strong>
+<!--包含关系-->
+<div>
+    <div>我是包含div</div>
+    <span>我是包含span</span>
+    <span>我</span>
+</div>
+<span>
+    <div>我是包含在span里的div</div>
+</span>
+<!--改变display-->
+ <span style="display:block">我是span</span><span style="display:block">我是span</span>
+<div style="display:inline">我是div</div><span>呜呜呜呜</span>
+<!--细节区别 block-->
+<div class="father">
+    <div class="child">
+        我是一个div
+    </div>
+</div>
+<!--细节区别span-->
+<div class="spanf">
+    <span>吾问无为谓无无无无无无无无无无无无无</span>
+    <span>吾问无为谓无无无无无无无无无无无无无</span>
+    <span>吾问无为谓无无无无无无无无无无无无无</span>
+    <span>吾问无为谓无无无无无无无无无无无无无</span>
+    <span>吾问无为谓无无无无无无无无无无无无无</span>
+    <span>吾问无为谓无无无无无无无无无无无无无</span>
+    <span>吾问无为谓无无无无无无无无无无无无无</span>
+    <span>吾问无为谓无无无无无无无无无无无无无</span>
+    <span>吾问无为谓无无无无无无无无无无无无无</span>
+    <span>吾问无为谓无无无无无无无无无无无无无</span>
+</div>
+<!--细节区别-->
+<span class="inlineb">我是一个span</span>
+<span class="inlineb">我是一个span</span>
+<div>
+<!--display属性-->
+    <div>
+        <p>flex</p>
+        <p>table</p>
+        <p>table-cell</p>
+    </div>
+</div>
+</body>
+</html>
