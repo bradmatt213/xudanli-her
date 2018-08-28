@@ -1,0 +1,30 @@
+@charset "CESU-8";
+/*
+    * Busy 收集 整理
+ */
+/*雅虎（YUI 3）reset*/
+/*Normalize.css*/
+@import "z.css";
+body {
+  background: #eff0f4;
+}
+header {
+  width: 100%;
+  height: 125px;
+  background: #5fc0cd;
+  font-size: 32px;
+  color: white;
+  line-height: 125px;
+  text-align: center;
+}
+.shut {
+  float: left;
+  margin-left: 30px;
+}
+.sign {
+  float: right;
+  margin-right: 30px;
+}
+.content {
+  margin-top: 15px;
+}
