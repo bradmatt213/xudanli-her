@@ -18,16 +18,16 @@
   width: 42%;
   height: 38px;
   border-radius: 6px;
-  font-size: 34px;
+  font-size: 1.5rem;
 }
 .button_header {
   display: inline-block;
-  width: 21%;
-  height: 56%;
-  font-size: 43px;
-  margin-top: 45px;
+  width: 65px;
+  height: 30px;
+  font-size: 1.5rem;
   border-radius: 10px;
   border: none;
+  margin-top: 8px;
 }
 body {
   font-size: 62.5%;
@@ -154,7 +154,6 @@ footer {
   width: 42%;
   height: 38px;
   border-radius: 6px;
-  font-size: 34px;
   font-size: 1.5rem;
   border: 1px solid #5fc0cd;
   color: #5fc0cd;
@@ -166,7 +165,6 @@ footer {
   width: 42%;
   height: 38px;
   border-radius: 6px;
-  font-size: 34px;
   font-size: 1.5rem;
   background: #5fc0cd;
   color: #fff;
