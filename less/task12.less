@@ -1,0 +1,160 @@
+@charset "UTF-8";
+@import "css3";
+@import "reset";
+@import "z";
+@import "color";
+@import "public";
+
+body {
+  font-size: 62.5%;
+}
+
+header {
+  .w100;
+  height: 40px;
+  line-height: 40px;
+  background: @theme_color;
+  .font-s(1.6rem);
+  .tc;
+  color: @font_color_w;
+  .fix;
+  top: 0;
+}
+
+header a {
+  .pos(a);
+  left: 4%;
+}
+
+header a img {
+  width: 10px;
+}
+
+.content {
+  margin-top: 40px;
+  .w100;
+  height: 145px;
+  background: url("../img/doctor.png") no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.img-responsive {
+  width: 22%;
+  padding-left: 4%;
+  max-height: 80%;
+  max-width: 80%;
+}
+
+.people {
+  color: @font_color_w;
+  margin-left: 6%;
+}
+
+.people span:first-child {
+  .font-s(16px);
+  margin-right: 15px;
+}
+
+.people span:last-child {
+  .font-s(15px);
+}
+
+.content p:last-child {
+  .font-s(11px);
+  background: url("../img/Shape-4.png") no-repeat left center;
+  background-size: 10px 13px;
+  padding-left: 15px;
+}
+
+.main ul {
+  list-style-type: none;
+  margin-bottom: 0;
+  padding: 0 0 0 36px;
+}
+.main{
+  border-bottom: 1px solid @border_color;
+  margin-bottom: 100px;
+}
+.main li {
+  border-bottom: 1px solid @border_color;
+  height: @table_height;
+  display: flex;
+  align-items: center;
+  .font-s(1.4rem);
+  .w100;
+}
+.main li:last-child{
+  border-bottom:none;
+}
+.main img{
+  height:16px;
+}
+.list {
+  border-bottom: 1px solid @border_color;
+  height: @table_height;
+ .w100;
+  line-height: @table_height;
+  .font-s(1.4rem);
+  background: url("../img/blue.png") no-repeat 13px center;
+  background-size: 2px 11px;
+  padding-left: 27px;
+}
+
+.family {
+  .dib;
+  background: url("../img/star.png") no-repeat left center;
+  background-size: 11px 11px;
+  padding-left: 15px;
+  width: 60px;
+}
+
+.food {
+  .dib;
+  background: url("../img/star.png") no-repeat left center;
+  background-size: 11px 11px;
+  padding-left: 15px;
+  margin-left: 8px;
+}
+
+.leftspan {
+  color: @li_color;
+  .dib;
+  width: 65px;
+  white-space: nowrap;
+}
+
+.rightspan {
+  .dib;
+  margin-left: 10px;
+}
+.wash{
+  .font-s(1.2rem);
+  width: 200px;
+}
+
+footer {
+  //margin-top: 70px;
+  .w100;
+  .tc;
+  .fix;
+  bottom: 12px;
+}
+
+.message {
+  .button_footer;
+  .font-s(1.5rem);
+  border: 1px solid @theme_color;
+  color: @theme_color;
+  background: white;
+  margin-right: 25px;
+}
+
+.call {
+  .button_footer;
+  .font-s(1.5rem);
+  background: @theme_color;
+  color: @font_color_w;
+  border: none;
+}

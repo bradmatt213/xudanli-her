@@ -1,29 +1,72 @@
-@charset "CESU-8";
+@charset "UTF-8";
 @import "css3";
 @import "reset";
-@import "z.css";
-@color:#5fc0cd;
+@import "z";
+@import "color";
+@import "public";
 
 body{
-  background: #eff0f4;
+  background: @body_color;
 }
 header{
-  width: 100%;
-  height: 125px;
-  background: @color;
-  font-size: 32px;
-  color: white;
-  line-height: 125px;
-  text-align: center;
+  color: @font_color_w;
+  background: @theme_color;
+  .w100;
+  height: 12.5rem;
+  line-height: 12.5rem;
+  .tc;
+  .font-s(2.4rem)
 }
 .shut{
-  float: left;
-  margin-left: 30px;
+  .fl;
+  margin-left: 4%;
 }
 .sign{
-  float: right;
-  margin-right: 30px;
+ .fr;
+  margin-right: 4%;
 }
 .content{
-  margin-top: 15px;
+  margin-top: 1.5rem;
+}
+.content div{
+  .db;
+  .w100;
+  height:10rem;
+  .font-s(2.4rem);
+  margin-bottom: 5px;
+}
+.phone{
+  .input_cellphone;
+  background:  white url("../img/iphone.png") no-repeat 2rem center;
+}
+.pwd{
+ .input_cellphone;
+  background:  white url("../img/locked-2.png") no-repeat 2rem center;
+  margin-top: 1.5rem;
+}
+
+input::-webkit-input-placeholder{
+  color: #e1e5e7;
+}
+.footer{
+  margin-top: 6.5rem;
+  .font-s(2.4rem);
+
+}
+.footer button{
+  .w100;
+  background: @theme_color;
+  height: 9.5rem;
+  border: none;
+  color: @font_color_w;
+  letter-spacing: 2rem;
+  padding-left: 30px;
+}
+.footer a{
+  .db;
+  color:@theme_color;
+   .tn;
+  margin-top: 2rem;
+  margin-right: 4%;
+  .fr;
 }

@@ -1,0 +1,25 @@
+.w100 {
+  width: 100%;
+}
+.input_cellphone {
+  border: none;
+  width: 100%;
+  height: 100%;
+  padding-left: 110px;
+}
+.button_footer {
+  display: inline-block;
+  width: 42%;
+  height: 38px;
+  border-radius: 6px;
+  font-size: 34px;
+}
+.button_header {
+  display: inline-block;
+  width: 21%;
+  height: 56%;
+  font-size: 43px;
+  margin-top: 45px;
+  border-radius: 10px;
+  border: none;
+}
