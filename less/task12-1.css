@@ -27,16 +27,37 @@
   font-size: 1.5rem;
   border-radius: 10px;
   border: none;
-  margin-top: 8px;
+  margin-top: 6px;
+}
+.table_wh {
+  width: 88%;
+  text-align: center;
+  margin: 0 auto;
+  border: 1px solid lightgrey;
+}
+.table_button {
+  width: 71%;
+  height: 130px;
+  background: #69d1e9;
+  font-size: 3.2rem;
+  color: white;
+  border: none;
+}
+.circle_bottom {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #0ab077;
 }
 body {
   font-size: 62.5%;
 }
 header {
   width: 100%;
-  height: 50px;
+  height: 40px;
   background: #5fc0cd url("../img/icon-1.png") no-repeat 96% center;
-  background-size: 25px 30px;
+  background-size: 20px 23px;
   text-align: center;
   position: fixed;
   top: 0;
@@ -48,7 +69,7 @@ header {
   font-size: 1.5rem;
   border-radius: 10px;
   border: none;
-  margin-top: 8px;
+  margin-top: 6px;
   color: #fff;
   background: #55a8b3;
 }
@@ -59,16 +80,16 @@ header {
   font-size: 1.5rem;
   border-radius: 10px;
   border: none;
-  margin-top: 8px;
+  margin-top: 6px;
   color: #5fc0cd;
   background: #eff0f4;
   margin-left: -8px;
 }
 .second {
   width: 100%;
-  margin-top: 50px;
+  margin-top: 40px;
   border-bottom: 1px solid lightgrey;
-  padding: 10px 0;
+  padding: 5px 0;
 }
 .dropdown {
   display: inline-block;
@@ -78,13 +99,15 @@ header {
 .second .dropdown:last-child {
   border: none;
 }
+.btn {
+  padding: 0;
+}
 .btn.dropdown-toggle {
   width: 100%;
   font-size: 1.2rem;
-  height: 35px;
+  height: 25px;
   background: white;
   color: #afafaf;
-  padding: 6px 0;
 }
 .btn .caret {
   float: right;
@@ -94,19 +117,23 @@ header {
 .dropdown-menu {
   width: 100%;
   text-align: center;
+  min-width: 0;
 }
 .main ul {
   list-style-type: none;
   padding: 0;
 }
 .main ul li {
+  height: 80px;
   border-bottom: 1px solid lightgrey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px 0;
 }
 .date {
   font-size: 1.2rem;
   color: #afafaf;
-  margin-top: 15px;
-  width: 80px;
   padding-left: 30px;
   background: url("../img/icon-4.jpg") no-repeat 10px center;
   background-size: 11px 10px;
@@ -114,12 +141,9 @@ header {
 .site {
   font-size: 1.2rem;
   color: #afafaf;
-  margin-top: 15px;
-  width: 120px;
   padding-left: 30px;
-  margin-bottom: 10px;
   background: url("../img/icon-8.jpg") no-repeat 12px center;
-  background-size: 7px 10px;
+  background-size: 10px 12px;
 }
 .time {
   font-size: 1.4rem;
@@ -129,19 +153,21 @@ header {
   color: red;
   float: right;
   display: inline;
-  margin-right: 35px;
-  width: 90px;
+  margin-right: 4%;
+  padding-right: 15px;
   background: url("../img/icon-3.jpg") no-repeat right center;
-  background-size: 9px 17px;
+  background-size: 8px 16px;
 }
 .ask {
-  margin-top: 10px;
   padding-left: 30px;
 }
 footer {
   background: #f8fafb;
-  height: 60px;
+  height: 45px;
   margin-top: 80px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 .last {
   width: 56%;
@@ -149,19 +175,25 @@ footer {
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 10px 0;
 }
 .page {
   display: block;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 .mine {
   display: block;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 .left img {
   width: 22px;
   height: 20px;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .middle img {
   width: 40px;
@@ -170,4 +202,9 @@ footer {
 .right img {
   width: 22px;
   height: 20px;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

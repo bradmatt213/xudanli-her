@@ -81,7 +81,13 @@ header {
     border-bottom: 1px solid #e6e6e6;
     background: white;
 }
-
+.btn1:focus{
+    background:#1d7ad9;
+    color: white;
+}
+.btn1:hover{
+    background-color: #fff;
+}
 @media screen and (max-width: 1365px) {
     .page {
         width: 100%;
@@ -171,7 +177,7 @@ header {
 
 .content {
     width: 62%;
-    margin: 120px auto;
+    margin: 120px auto 65px auto;
 }
 
 .box {
@@ -181,6 +187,7 @@ header {
 .heading1 {
     color: #1d7ad9 !important;
     font-size: 18px;
+    font-weight: bold;
 }
 
 .heading1 img {
@@ -193,6 +200,7 @@ header {
 
 .select {
     font-size: 18px;
+    font-weight: bold;
 }
 
 input[type="radio"] + label::before {
@@ -222,17 +230,21 @@ input[type="radio"] {
     font-size: 18px;
     font-weight: normal;
     margin-right: 60px;
+    margin-bottom: 0;
+    color: #666666;
 }
 
 .select1 {
     font-size: 18px;
     margin-right: 10px;
+    color: #666666;
 }
 
 .select2 {
     font-size: 18px;
     margin-left: 10px;
     margin-right: 60px;
+    color: #666666;
 }
 
 .outer {
@@ -249,6 +261,7 @@ input[type="radio"] {
 
 .btn2 {
     width: 178px;
+    font-size: 24px;
 }
 
 .smallbox {
@@ -311,7 +324,6 @@ input[type="radio"] {
         font-size: 12px;
         margin-top: 10px;
     }
-
     .smallbox {
         display: block;
         margin-top: 10px;
@@ -326,22 +338,26 @@ input[type="radio"] {
 }
 
 .pull-right button {
-    padding: 6px 4px;
+    /*padding: 6px 4px;*/
+    color: #999999;
 }
-
+/*.pull-right .btn-default{*/
+    /*background: white;*/
+/*}*/
 footer {
     width: 100%;
     background: #f9f9f9;
-    height: 207px;
+    height: 200px;
 }
 
 .footer1 {
     width: 62%;
     margin: 0 auto;
+    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 60px 0;
+    /*padding: 50px 0;*/
 }
 
 .left p {

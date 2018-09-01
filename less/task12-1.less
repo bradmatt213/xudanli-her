@@ -9,9 +9,9 @@ body{
 }
 header{
   .w100;
-  height: 50px;
+  height: 40px;
   background: @theme_color url("../img/icon-1.png") no-repeat 96% center;
-  background-size: 25px 30px;
+  background-size: 20px 23px;
   .tc;
   .fix;
   top: 0;
@@ -29,9 +29,9 @@ header{
 }
 .second{
   .w100;
-  margin-top: 50px;
+  margin-top: 40px;
    border-bottom: 1px solid lightgrey;
-  padding: 10px 0;
+  padding: 5px 0;
 }
 .dropdown{
   .dib;
@@ -41,13 +41,15 @@ header{
 .second .dropdown:last-child{
   border: none;
 }
+.btn{
+  padding: 0;
+}
 .btn.dropdown-toggle{
   .w100;
   .font-s(1.2rem);
-  height: 35px;
+  height: 25px;
   background: white;
   color:#afafaf;
-  padding: 6px 0;
 }
 .btn .caret{
   float: right;
@@ -57,20 +59,23 @@ header{
 .dropdown-menu{
   .w100;
   text-align: center;
+  min-width: 0;
 }
 .main ul{
   list-style-type: none;
   padding: 0;
 }
 .main ul li{
-  //height: 80px;
+  height: 80px;
   border-bottom: 1px solid lightgrey;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  padding: 10px 0;
 }
 .date{
   .font-s(1.2rem);
   color: #afafaf;
-  margin-top: 15px;
-  width: 80px;
   padding-left: 30px;
   background: url("../img/icon-4.jpg") no-repeat 10px center;
   background-size: 11px 10px;
@@ -78,35 +83,35 @@ header{
 .site{
   .font-s(1.2rem);
   color: #afafaf;
-  margin-top: 15px;
-  width: 120px;
   padding-left: 30px;
-  margin-bottom: 10px;
   background: url("../img/icon-8.jpg") no-repeat 12px center;
-  background-size: 7px 10px;
+  background-size: 10px 12px;
 }
 .time{
   .font-s(1.4rem);
 }
 .vage{
   .font-s(1.6rem);
-  color: red;
+   color: red;
   .fr;
-  margin-right: 35px;
-  width: 90px;
+  margin-right: 4%;
+ padding-right: 15px;
   background: url("../img/icon-3.jpg")no-repeat right center;
-  background-size: 9px 17px;
+  background-size: 8px 16px;
 }
 .ask{
-  margin-top: 10px;
+  //margin-top: 10px;
   padding-left: 30px;
 }
 
 
 footer{
   background: #f8fafb;
-  height: 60px;
+  height: 45px;
   margin-top: 80px;
+  .fix;
+  bottom: 0;
+  .w100;
 }
 .last{
   width: 56%;
@@ -114,21 +119,25 @@ footer{
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   padding: 10px 0;
-  //.fix;
-  //bottom: 0;
 }
 .page{
   .db;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 .mine{
   .db;
-  margin-top: 10px;
+  margin-top: 5px;
 }
 .left img{
   width: 22px;
   height: 20px;
+}
+.left{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .middle img{
   width: 40px;
@@ -138,4 +147,9 @@ footer{
 .right img{
   width: 22px;
   height: 20px;
+}
+.right{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }

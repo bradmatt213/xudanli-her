@@ -27,7 +27,28 @@
   font-size: 1.5rem;
   border-radius: 10px;
   border: none;
-  margin-top: 8px;
+  margin-top: 6px;
+}
+.table_wh {
+  width: 88%;
+  text-align: center;
+  margin: 0 auto;
+  border: 1px solid lightgrey;
+}
+.table_button {
+  width: 71%;
+  height: 130px;
+  background: #69d1e9;
+  font-size: 3.2rem;
+  color: white;
+  border: none;
+}
+.circle_bottom {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #0ab077;
 }
 body {
   background: #eff0f4;
