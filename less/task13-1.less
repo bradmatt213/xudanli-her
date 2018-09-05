@@ -19,6 +19,10 @@ header {
   align-items: center;
   .font-s(3.4rem);
   color: white;
+  .fix();
+  top:0;
+  background: @table_color;
+  z-index: 10;
 }
 
 .chose img {
@@ -28,8 +32,8 @@ header {
 }
 
 .shut img {
-  width: 33px;
-  height: 37px;
+  width: 30px;
+  height: 35px;
   margin-right: 20px;
 }
 
@@ -42,24 +46,25 @@ header {
     height: 30px;
   }
   .shut img {
-    width: 27px;
-    height: 30px;
+    width: 26px;
+    height: 27px;
   }
 }
 
 .secondary {
   .w100;
   height: 80px;
-  //line-height: 80px;
+  line-height: 80px;
   background: #b9e9f5;
   .font-s(2.6rem);
   .rel();
+  margin-top: 90px;
 }
 
 .secondary span {
   margin-left: 30px;
   .dib;
-  padding-top: 14px;
+  //padding-top: 15px;
 }
 
 .secondary img {
@@ -69,7 +74,7 @@ header {
 .secondary a {
   .abs();
   right: 2%;
-  top:10px;
+  top:-4px;
 }
 .secondary:after {
   content: '\00a0';
@@ -170,7 +175,7 @@ header {
     .font-s(1.5rem);
   }
   .topbox{
-    .font-s(2rem);
+    .font-s(1.8rem);
   }
   .bottonbox{
     .font-s(1.5rem);

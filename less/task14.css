@@ -188,77 +188,188 @@ header .phone {
     margin-right: 0;
   }
 }
-body {
-  background: #eff0f4;
+html {
+  font-size: 62.5%;
 }
-header {
-  color: #fff;
-  background: #5fc0cd;
-  width: 100%;
-  height: 12.5rem;
-  line-height: 12.5rem;
+.maincontent {
+  width: 1200px;
+  margin: 0 auto;
+}
+.listitem img {
+  width: 60px;
+  height: 60px;
+}
+.list span {
+  display: block;
+  margin-bottom: 15px;
+}
+.two {
+  font-size: 1.8rem;
+  color: #333333;
+  font-weight: bold;
+}
+.long {
+  font-size: 1.6rem;
+  color: #999999;
+  text-align: left;
+}
+.number {
+  font-size: 1.8rem;
+  color: #29b078;
+  padding-left: 15px;
+}
+.result {
+  font-size: 1.8rem;
+  color: #999999;
+}
+h3 {
   text-align: center;
-  font-size: 2.4rem;
+  font-size: 1.8rem;
+  color: #333333;
+  margin: 110px auto 50px auto;
+  font-weight: bold;
 }
-.shut {
-  float: left;
-  display: inline;
-  margin-left: 4%;
-  font-size: 2.2rem;
+.lastlistitem {
+  padding-top: 10px;
+  padding-left: 40px;
+  border-left: 1px dashed #dedede;
 }
-.sign {
-  float: right;
-  display: inline;
-  margin-right: 4%;
-  font-size: 2.2rem;
+.listitem1 {
+  display: flex;
+  align-items: center;
 }
-.content {
-  margin-top: 1.5rem;
+.listitem1 span {
+  display: inline-block;
 }
-.content div {
-  display: block;
-  width: 100%;
-  height: 10rem;
-  font-size: 2.4rem;
-  margin-bottom: 5px;
+.listitem1 img {
+  width: 30px;
+  height: 30px;
 }
-.phone {
-  border: none;
-  width: 100%;
-  height: 100%;
-  padding-left: 110px;
-  background: white url("../img/iphone.png") no-repeat 2rem center;
+.describe {
+  font-size: 1.4rem;
+  color: #999999;
+  text-align: left;
+  width: 160px;
+  margin-left: 25px;
+  margin-right: 18px;
 }
-.pwd {
-  border: none;
-  width: 100%;
-  height: 100%;
-  padding-left: 110px;
-  background: white url("../img/locked-2.png") no-repeat 2rem center;
-  margin-top: 1.5rem;
+.listitem2 {
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  border: 1px solid #eeeded;
 }
-input::-webkit-input-placeholder {
-  color: #e1e5e7;
+.adviser {
+  font-size: 1.8rem;
+  color: #333333;
 }
-.footer {
-  margin-top: 6.5rem;
-  font-size: 2.4rem;
+.function {
+  font-size: 1.6rem;
+  color: #999999;
+  text-align: left;
+  padding-right: 20px;
+  padding-left: 20px;
 }
-.footer button {
-  width: 100%;
-  background: #5fc0cd;
-  height: 9.5rem;
-  border: none;
-  color: #fff;
-  letter-spacing: 2rem;
-  padding-left: 30px;
+.void {
+  display: none;
 }
-.footer a {
-  display: block;
-  color: #5fc0cd;
+@media screen and (max-width: 1200px) {
+  .maincontent {
+    width: 100%;
+  }
+  .void {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+  }
+  .list {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+  .listitem {
+    width: 80% !important;
+    margin-bottom: 20px;
+  }
+  .long {
+    text-align: center;
+  }
+  .lastlistitem {
+    padding-left: 0;
+    border-left: none;
+  }
+  .listitem1 {
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.fourcircle {
+  text-align: center;
+  margin-top: 15px;
+}
+.circle {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #0ab077;
+  background: #29b078;
+}
+.circle1 {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: #0ab077;
+  background: #ffffff;
+  border: 1px solid lightgrey;
+}
+.fivepicturre {
+  display: flex;
+  justify-content: space-between;
+  box-shadow: 1px 1px 1px 1px lightgrey;
+}
+.fivepicturre span:hover {
+  box-shadow: 1px 1px 1px lightgrey;
+}
+.fireadship ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 10px 0;
+  color: #999999;
+  list-style-type: none;
+}
+.fireadship a {
+  font-size: 1.4rem;
+  color: #999999;
   text-decoration: none;
-  margin-top: 2rem;
-  margin-right: 4%;
-  float: right;
-  display: inline;
+  background: url("../img/blackcircle.png") no-repeat left 32%;
+  padding-left: 10px;
+  padding-bottom: 5px;
+}
+.fireadship a:hover {
+  border-bottom: 1px solid #29b078;
+}
+@media screen and (max-width: 1200px) {
+  .fivepicturre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .fireadship ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.tfooter {
+  background: #29b078;
+  text-align: center;
+  color: white;
+  font-size: 1.2rem;
+  padding: 8px 0;
 }

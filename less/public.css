@@ -44,3 +44,141 @@
   border-radius: 50%;
   background: #0ab077;
 }
+.list {
+  display: flex;
+  justify-content: space-between;
+}
+.list .listitem {
+  text-align: center;
+  width: 23%;
+}
+.smallcircle {
+  padding-top: 13px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  font-size: 1.8rem;
+  color: #29b078;
+  box-shadow: 1px 1px 1px lightgrey;
+}
+header {
+  width: 100%;
+}
+header .contact {
+  height: 40px;
+  line-height: 40px;
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  color: #29b078;
+  font-size: 1.4rem;
+}
+header .contact a {
+  padding-right: 10px;
+}
+header .phone {
+  display: none;
+}
+@media screen and (max-width: 1200px) {
+  header .contact {
+    width: 100%;
+  }
+  header .contact div:first-child {
+    margin-left: 10px;
+  }
+  header .icons {
+    display: none;
+  }
+  header .phone {
+    display: inline-block;
+    margin-right: 20px;
+  }
+}
+.secondary {
+  width: 100%;
+  height: 100px;
+  background: #29b078;
+  line-height: 100px;
+}
+.secondary .page {
+  width: 1225px;
+  margin: 0 auto;
+  text-align: right;
+}
+.secondary .page a {
+  display: inline-block;
+  height: 99px;
+  width: 85px;
+  font-size: 1.6rem;
+  color: white;
+  text-decoration: none;
+  text-align: center;
+}
+.secondary .page a:hover {
+  border-bottom: 3px solid white;
+}
+.secondary .dropdown {
+  display: none;
+}
+@media screen and (max-width: 1200px) {
+  .secondary .page {
+    display: none;
+  }
+  .secondary .dropdown {
+    display: inline-block;
+    float: right;
+    margin-right: 20px;
+  }
+  .secondary .dropdown-toggle {
+    background: #29b078;
+  }
+  .secondary .dropdown-menu {
+    min-width: 0;
+    background: #29b078;
+  }
+}
+.footer {
+  width: 100%;
+  background: #29b078;
+  border-bottom: 1px solid #32c086;
+}
+.footer .footeritem {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 0;
+}
+.footer .footeritem .leftside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  font-size: 1.6rem;
+}
+.footer .footeritem .leftside a {
+  color: white;
+  font-size: 1.4rem;
+  padding-right: 8px;
+  text-decoration: none;
+  padding-bottom: 5px;
+}
+.footer .footeritem .leftside a:hover {
+  border-bottom: 1px solid white;
+}
+.footer .footeritem .middle {
+  margin-right: 30%;
+}
+@media screen and (max-width: 1200px) {
+  .footer .footeritem {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+  }
+  .footer .footeritem .middle {
+    margin-right: 0;
+  }
+}

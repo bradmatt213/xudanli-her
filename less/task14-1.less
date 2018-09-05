@@ -1,0 +1,165 @@
+@charset "UTF-8";
+@import "z";
+@import "public";
+
+html {
+  font-size: 62.5%;
+}
+
+.page {
+  display: flex;
+  justify-content: space-between;
+}
+
+.page img {
+  width: 91px;
+  margin-left: 14px;
+}
+
+.picture img {
+  width: 100%;
+  border: none;
+}
+
+.mainsection {
+  width: 1200px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.titlepage {
+  font-size: 1.6rem;
+  color: #333333;
+}
+
+.titlecompany {
+  font-size: 1.6rem;
+  color: #29b078;
+}
+
+.twosection {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.leftsection {
+  width: 25%;
+  border: 1px solid #ededed;
+  height: 80%;
+}
+
+.leftsection p {
+  text-align: center;
+  font-size: 1.6rem;
+  border-bottom: 1px solid #ededed;
+  padding: 10px 0;
+}
+
+.website {
+  list-style-type: none;
+  padding: 0;
+ padding-left: 38%;
+}
+
+.website li {
+  margin-top: 20px;
+}
+
+.website a {
+  font-size: 1.4rem;
+  color: #29b078;
+  text-decoration: none;
+  background: url("../img/redcircle.png") no-repeat left center;
+  padding-left: 13px;
+}
+
+.website a:hover {
+  color: red;
+  background: url("../img/redcircle1.png") no-repeat left center;
+}
+
+.rightsection {
+  width: 72%;
+  border: 1px solid #ededed;
+  padding-bottom: 60px;
+}
+
+.rightsection img {
+  width: 180px;
+  height: 120px;
+}
+
+.tudou {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ededed;
+}
+
+.tudou p {
+  font-size: 1.4rem;
+  color: #999999;
+  padding-right: 30px;
+}
+
+.paragraph {
+  font-size: 1.4rem;
+  color: #999999;
+  text-indent: 2rem;
+  margin-top: 30px;
+  padding: 0 30px;
+}
+
+@media screen and(max-width: 1200px) {
+  .mainsection {
+    width: 100%;
+  }
+
+  .titlepage {
+    margin-left: 20px
+  }
+
+  .twosection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .leftsection {
+    width: 80%;
+    margin-bottom: 20px;
+    li{
+      text-align: center;
+    }
+  }
+  .website{
+    padding-left: 0;
+  }
+
+  .rightsection {
+    width: 80%;
+  }
+
+  .tudou {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .tudou p {
+    margin-left: 30px;
+  }
+}
+
+.footer {
+  margin-top: 80px;
+}
+
+.tfooter {
+  background: #29b078;
+  text-align: center;
+  color: white;
+  .font-s(1.2rem);
+  padding: 8px 0;
+}
